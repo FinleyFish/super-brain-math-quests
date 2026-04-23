@@ -5,7 +5,7 @@
 
 ---
 
-## 👑 EMELIA'S LEGENDARY JOURNEYS 👑
+## 👑 THE LEGEND'S JOURNEYS 👑
 
 ### 1. 🗝️ The Escape from Numeria (Quest for the Golden Calculator)
 **The Vibe:** High-Fantasy / Mystery
@@ -125,7 +125,7 @@ There are three gears in a row.
 **THE TASK:** If the **Large Gear** makes **12 full rotations**, how many total rotations does the **Small Gear** make?
 
 #### 💎 Level 2: The Hall of Infinite Fractions
-Emelia finds a crystal bridge.
+A brave explorer finds a crystal bridge.
 - 1/3 of the bridge is made of Sapphire.
 - 2/5 of the bridge is made of Emerald.
 - The rest of the bridge is made of Ruby.
@@ -169,7 +169,7 @@ The Diamond Data-Drive is inside a chest with a 3-digit combination lock:
 
 ---
 
-## 🦖 NOAH'S PREHISTORIC EXPEDITION 🦖
+## 🦖 THE PREHISTORIC EXPEDITION 🦖
 
 ### 1. 🦕 The Great Dino-Discovery Adventure
 **The Vibe:** Prehistoric / Exploration
