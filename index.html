@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌌 The Grand Archive of the Super-Brain Universe</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #0c0c1d;
@@ -14,6 +14,8 @@
             --accent-color: #7b61ff;
             --highlight-color: #ffcc00;
             --border-color: #2d2d5f;
+            --junior-color: #4ade80;
+            --master-color: #f472b6;
         }
         body {
             background-color: var(--bg-color);
@@ -26,41 +28,88 @@
             justify-content: center;
         }
         #content-wrapper {
-            max-width: 850px;
-            width: 90%;
-            margin: 40px 0;
+            max-width: 900px;
+            width: 95%;
+            margin: 40px auto;
             padding: 40px;
             background: var(--card-bg);
-            border: 2px solid var(--border-color);
-            border-radius: 20px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-        }
-        h1, h2, h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            color: var(--accent-color);
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            border: 4px solid var(--border-color);
+            border-radius: 30px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.7);
         }
         h1 {
+            font-family: 'Luckiest Guy', cursive;
             text-align: center;
-            font-size: 2.5rem;
-            border-bottom: 4px solid var(--accent-color);
-            padding-bottom: 20px;
-            margin-bottom: 30px;
+            font-size: 3.5rem;
             color: var(--highlight-color);
+            text-shadow: 4px 4px 0px #4b3d8a;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #aaa;
         }
         h2 {
-            border-left: 8px solid var(--accent-color);
-            padding-left: 15px;
-            margin-top: 50px;
-            font-size: 1.8rem;
+            font-family: 'Space Grotesk', sans-serif;
+            border-radius: 15px;
+            padding: 15px 25px;
+            text-align: center;
+            margin-top: 60px;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .master-header {
+            background: linear-gradient(90deg, #4b3d8a, #7b61ff);
+            color: white;
+            border: 2px solid var(--master-color);
+        }
+        .junior-header {
+            background: linear-gradient(90deg, #1a4d2e, #4ade80);
+            color: #052e16;
+            border: 2px solid #bbf7d0;
+        }
+        .quest-section {
+            margin-bottom: 50px;
+            padding: 25px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease;
+        }
+        .quest-section:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.06);
+        }
+        .quest-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 2px solid var(--border-color);
         }
         h3 {
-            margin-top: 30px;
-            font-size: 1.4rem;
-            color: var(--text-color);
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 5px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.6rem;
+            color: var(--highlight-color);
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .vibe-badge {
+            font-size: 0.8rem;
+            padding: 4px 12px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 20px;
+            text-transform: uppercase;
+            vertical-align: middle;
         }
         p, li {
             font-size: 1.1rem;
@@ -69,57 +118,109 @@
         strong {
             color: var(--highlight-color);
         }
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 60px;
+            padding-bottom: 20px;
+            color: #777;
+            font-style: italic;
+        }
         hr {
             border: 0;
             height: 1px;
             background: var(--border-color);
             margin: 40px 0;
         }
-        .quest-card {
-            background: rgba(255,255,255,0.03);
-            padding: 20px;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            margin-bottom: 30px;
-        }
-        .footer {
-            text-align: center;
-            font-size: 0.9rem;
-            margin-top: 40px;
-            color: #777;
-            font-style: italic;
-        }
-        /* Markdown specific styles */
-        .markdown-body h4 {
-            color: var(--accent-color);
-            margin-top: 20px;
-            font-size: 1.2rem;
-        }
-        .markdown-body blockquote {
-            border-left: 4px solid var(--highlight-color);
-            padding-left: 20px;
-            font-style: italic;
-            color: #ccc;
-        }
     </style>
 </head>
 <body>
-    <div id="content-wrapper" class="markdown-body">
-        <div id="content">Loading the archives... 🚀</div>
+    <div id="content-wrapper">
+        <h1>🌟 SUPER-BRAIN ARCHIVES 🌟</h1>
+        <div class="subtitle">The Official Collection of Epic Math Quests for Brave Minds</div>
+        <div id="content">Loading the legends... 🚀</div>
         <div class="footer">Compiled by Finley & Mr. Numbers | Galactic Edition 2026</div>
     </div>
 
     <script>
+        const IMAGE_MAP = {
+            "The Escape from Numeria": "https://images.unsplash.com/photo-1518709268805-4d5362d6ed3a?auto=format&fit=crop&w=800&q=80",
+            "The Galactic Math Odyssey": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+            "The Shattered Prism Nebula": "https://images.unsplash.com/photo-1550684376-ef03f53c8dec?auto=format&fit=crop&w=800&q=80",
+            "The Clockwork Citadel": "https://images.unsplash.com/photo-1534447677768-6d777573995b?auto=format&fit=crop&w=800&q=80",
+            "The Crystal Caves": "https://images.unsplash.com/photo-1550684376-ef03f53c8dec?auto=format&fit=crop&w=800&q=80",
+            "The Great Dino-Discovery": "https://images.unsplash.com/photo-1559967553-774571437848?auto=format&fit=crop&w=800&q=80"
+        };
+
         async function loadQuests() {
             try {
                 const response = await fetch('SuperBrain_MathQuests_Archive.md');
                 if (!response.ok) throw new Error('Could not load the archive');
                 const text = await response.text();
-                document.getElementById('content').innerHTML = marked.parse(text);
+                
+                // Split sections by top-level headers (##)
+                const sections = text.split(/\n(?=## )/);
+                let finalHtml = "";
+
+                sections.forEach(section => {
+                    if (section.trim().startsWith('## 👑')) {
+                        finalHtml += `<h2 class="master-header">${section.match(/## (.*?)\n/)?.[1] || 'Master Navigator'}</h2>`;
+                        finalHtml += renderQuests(section);
+                    } else if (section.trim().startsWith('## 🦖')) {
+                        finalHtml += `<h2 class="junior-header">${section.match(/## (.*?)\n/)?.[1] || 'Junior Explorer'}</h2>`;
+                        finalHtml += renderQuests(section);
+                    } else {
+                        // Keep intro/footer content
+                        finalHtml += marked.parse(section);
+                    }
+                });
+
+                document.getElementById('content').innerHTML = finalHtml;
             } catch (err) {
                 document.getElementById('content').innerHTML = '<p style="color:red">Error loading archives: ' + err.message + '</p>';
             }
         }
+
+        function renderQuests(content) {
+            // Find individual quests (marked by ###)
+            const quests = content.split(/\n(?=### )/);
+            let questHtml = "";
+
+            quests.forEach(q => {
+                if (q.trim().startsWith('###')) {
+                    const titleMatch = q.match(/### (.*?)\n/);
+                    const title = titleMatch ? titleMatch[1] : "Unknown Quest";
+                    
+                    // Find matching image
+                    let imgUrl = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80";
+                    for (const key in IMAGE_MAP) {
+                        if (title.toLowerCase().includes(key.toLowerCase())) {
+                            imgUrl = IMAGE_MAP[key];
+                            break;
+                        }
+                    }
+
+                    // Extract Vibe and Plot
+                    const vibeMatch = q.match(/\*\*The Vibe:\*\*\s*(.*?)\n/);
+                    const vibeText = vibeMatch ? vibeMatch[1] : "Adventure";
+                    
+                    // Render the rest of the content without the title
+                    const body = q.replace(/### .*?\n/, "");
+
+                    questHtml += `
+                        <div class="quest-section">
+                            <img src="${imgUrl}" class="quest-image" alt="${title}">
+                            <h3>${title} <span class="vibe-badge">${vibeText}</span></h3>
+                            <div class="quest-body">${marked.parse(body)}</div>
+                        </div>
+                    `;
+                } else if (q.trim() !== "") {
+                    questHtml += marked.parse(q);
+                }
+            });
+            return questHtml;
+        }
+
         loadQuests();
     </script>
 </body>

@@ -5,7 +5,7 @@
 
 ---
 
-## 👑 THE LEGEND'S JOURNEYS 👑
+## 👑 THE MASTER NAVIGATOR'S JOURNEYS [Ages 8-11] 👑
 
 ### 1. 🗝️ The Escape from Numeria (Quest for the Golden Calculator)
 **The Vibe:** High-Fantasy / Mystery
@@ -169,7 +169,7 @@ The Diamond Data-Drive is inside a chest with a 3-digit combination lock:
 
 ---
 
-## 🦖 THE PREHISTORIC EXPEDITION 🦖
+## 🦖 THE JUNIOR EXPLORER'S EXPEDITION [Ages 5-7] 🦖
 
 ### 1. 🦕 The Great Dino-Discovery Adventure
 **The Vibe:** Prehistoric / Exploration
