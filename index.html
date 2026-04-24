@@ -120,6 +120,7 @@
             object-fit: cover;
             border-bottom: 3px solid var(--border-color);
             display: block;
+            background-color: #1a1a3a;
         }
         .quest-body { padding: 30px; flex-grow: 1; }
         .quest-title {
@@ -149,6 +150,27 @@
             color: var(--highlight-color);
             font-weight: 700;
         }
+
+        /* --- VISUAL SEPARATOR --- */
+        .quest-divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--border-color), transparent);
+            margin: 40px 0;
+            position: relative;
+            display: block;
+        }
+        .quest-divider::after {
+            content: '✦';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--card-bg);
+            padding: 0 15px;
+            color: var(--accent-color);
+            font-size: 1.2rem;
+        }
+
         /* --- THE ULTIMATE TASK FIX --- */
         .task-block {
             display: block;
@@ -176,7 +198,7 @@
             line-height: 1.5;
             color: #fff;
         }
-        /* --------------------------- */
+        
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -201,13 +223,16 @@
     </div>
 
     <script>
+        // --- IMAGE CONFIGURATION ---
+        const IMAGE_BASE_URL = "https://raw.githubusercontent.com/FinleyFish/super-brain-math-quests/main/assets/images/";
+        
         const IMAGE_MAP = {
-            "Numeria": "https://images.unsplash.com/photo-1518709268805-4d5362d6ed3a?auto=format&fit=crop&w=800&q=80",
-            "Galactic": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
-            "Prism": "https://images.unsplash.com/photo-1550684376-ef03f53c8dec?auto=format&fit=crop&w=800&q=80",
-            "Clockwork": "https://images.unsplash.com/photo-1534447677768-6d777573995b?auto=format&fit=crop&w=800&q=80",
-            "Crystal": "https://images.unsplash.com/photo-1516339901601-515d77669998?auto=format&fit=crop&w=800&q=80",
-            "Dino": "https://images.unsplash.com/photo-1559967553-774571437848?auto=format&fit=crop&w=800&q=80"
+            "Numeria": { file: "numeria.jpg", fallback: "https://images.unsplash.com/photo-1518709268805-4d5362d6ed3a?auto=format&fit=crop&w=800&q=80" },
+            "Galactic": { file: "galactic.jpg", fallback: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" },
+            "Prism": { file: "prism.jpg", fallback: "https://images.unsplash.com/photo-1550684376-ef03f53c8dec?auto=format&fit=crop&w=800&q=80" },
+            "Clockwork": { file: "clockwork.jpg", fallback: "https://images.unsplash.com/photo-1534447677768-6d777573995b?auto=format&fit=crop&w=800&q=80" },
+            "Crystal": { file: "crystal.jpg", fallback: "https://images.unsplash.com/photo-1516339901601-515d77669998?auto=format&fit=crop&w=800&q=80" },
+            "Dino": { file: "dino.jpg", fallback: "https://images.unsplash.com/photo-1559967553-774571437848?auto=format&fit=crop&w=800&q=80" }
         };
 
         async function init() {
@@ -244,7 +269,14 @@
                 let imgUrl = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80";
                 for (const key in IMAGE_MAP) {
                     if (title.toLowerCase().includes(key.toLowerCase())) {
-                        imgUrl = IMAGE_MAP[key];
+                        imgUrl = IMAGE_BASE_URL + IMAGE_MAP[key].file;
+                        break;
+                    }
+                }
+                let fallbackUrl = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80";
+                for (const key in IMAGE_MAP) {
+                    if (title.toLowerCase().includes(key.toLowerCase())) {
+                        fallbackUrl = IMAGE_MAP[key].fallback;
                         break;
                     }
                 }
@@ -253,18 +285,21 @@
                 const vibe = vibeMatch ? vibeMatch[1] : "Adventure";
 
                 let bodyRaw = lines.slice(1).join('\n');
+                bodyRaw = bodyRaw.replace(/^---$/gm, '<div class="quest-divider"></div>');
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                // TOTAL OVERHAUL OF TASK REPLACEMENT
-                // We look for any <p> tags that contain "THE TASK:" and convert them to a distinct div
-                const taskRegex = /<p>\s*<strong\s*[^>]*>(THE TASK:|TASK \d+:)\s*<\/strong>(.*?)\s*<\/p>/gi;
-                bodyHtml = bodyHtml.replace(taskRegex, (match, label, content) => {
-                    return `<div class="task-block"><strong>${label}</strong><div class="task-block-content">${content}</div></div>`;
+                const pRegex = /<p>(.*?)<strong\s*[^>]*>(THE TASK:|TASK \d+:)\s*<\/strong>(.*?)<\/p>/gi;
+                bodyHtml = bodyHtml.replace(pRegex, (match, before, label, after) => {
+                    let prefix = before.trim() ? `<p>${before}</p>` : "";
+                    return `${prefix}<div class="task-block"><strong>${label}</strong><div class="task-block-content">${after}</div></div>`;
                 });
 
                 html += `
                     <div class="quest-card ${type}">
-                        <img src="${imgUrl}" class="quest-img" alt="${title}">
+                        <img src="${imgUrl}" 
+                             onerror="this.src='${fallbackUrl}'" 
+                             class="quest-img" 
+                             alt="${title}">
                         <div class="quest-body">
                             <h3 class="quest-title">${title} <span class="vibe-tag">${vibe}</span></h3>
                             <div class="quest-text">${bodyHtml}</div>
