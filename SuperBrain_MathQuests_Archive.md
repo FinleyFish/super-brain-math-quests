@@ -13,6 +13,7 @@
 
 #### 🌲 Challenge 1: The Whispering Woods of Wealth
 You step into a forest where the trees grow silver coins instead of leaves! You find **6 ancient treasure chests**. Inside *each* chest, there are exactly **15 silver coins**. As you're counting them, you realize you already had **3 coins** tucked away in your pocket from your last adventure!
+
 **THE TASK:** How many silver coins do you have in total?
 
 #### 🗿 Challenge 2: The Riddle of the Stone Sphinx
@@ -91,6 +92,7 @@ Calculate this: **(450 + 1,275) - (312 + 88)**.
 
 #### 💎 Challenge 2: Prism Shard Precision
 You've found a giant cosmic prism! It's broken into pieces. You have **three-quarters (3/4)** of a shard, but the anomaly sucks away **one-eighth (1/8)** of it.
+
 **THE TASK:** What fraction of the shard do you have left?
 
 #### 🐌 Challenge 3: The Comet-Tail Toll
