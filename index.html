@@ -100,7 +100,46 @@
             display: grid;
             grid-template-columns: 1fr;
             gap: 30px;
+            margin-top: 20px;
         }
+
+        /* --- QUEST NAVIGATION MENU --- */
+        .quest-menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            border: 1px solid var(--border-color);
+            justify-content: center;
+        }
+        .menu-link {
+            padding: 8px 16px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-color);
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .menu-link:hover {
+            transform: translateY(-2px);
+            border-color: var(--highlight-color);
+            color: var(--highlight-color);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .menu-link.junior:hover { border-color: var(--junior-primary); color: var(--junior-primary); }
+        .menu-link.master:hover { border-color: var(--master-primary); color: var(--master-primary); }
+
         .quest-card {
             background: var(--card-bg);
             border: 3px solid var(--border-color);
@@ -268,8 +307,14 @@
             <div id="btn-junior" class="tab-btn" onclick="switchTab('junior')">🦖 Junior Explorer [5-7]</div>
             <div id="btn-master" class="tab-btn" onclick="switchTab('master')">👑 Master Navigator [8-11]</div>
         </div>
-        <div id="tab-junior" class="tab-content"><div class="quest-grid" id="grid-junior"></div></div>
-        <div id="tab-master" class="tab-content"><div class="quest-grid" id="grid-master"></div></div>
+        <div id="tab-junior" class="tab-content">
+            <div class="quest-menu" id="menu-junior"></div>
+            <div class="quest-grid" id="grid-junior"></div>
+        </div>
+        <div id="tab-master" class="tab-content">
+            <div class="quest-menu" id="menu-master"></div>
+            <div class="quest-grid" id="grid-master"></div>
+        </div>
         <div class="footer">Compiled by Finley & Mr. Numbers | Galactic Edition 2026 | v2.4.1 (Cached Version Check)</div>
     </div>
 
@@ -298,8 +343,14 @@
                 const masterSection = text.substring(0, splitIdx);
                 const juniorSection = text.substring(splitIdx);
 
-                document.getElementById('grid-master').innerHTML = renderQuests(masterSection, 'master');
-                document.getElementById('grid-junior').innerHTML = renderQuests(juniorSection, 'junior');
+                const masterData = renderQuests(masterSection, 'master');
+                document.getElementById('grid-master').innerHTML = masterData.html;
+                document.getElementById('menu-master').innerHTML = renderMenu(masterData.links, 'master');
+
+                const juniorData = renderQuests(juniorSection, 'junior');
+                document.getElementById('grid-junior').innerHTML = juniorData.html;
+                document.getElementById('menu-junior').innerHTML = renderMenu(juniorData.links, 'junior');
+
                 switchTab('master');
             } catch (e) {
                 console.error(e);
@@ -307,15 +358,26 @@
             }
         }
 
+        function renderMenu(links, type) {
+            return links.map(link => 
+                `<a href="#${link.id}" class="menu-link ${type}"><span>🚀</span> ${link.title}</a>`
+            ).join('');
+        }
+
         function renderQuests(sectionText, type) {
             const questMatches = sectionText.split(/\n(?=### )/);
             let html = "";
+            let links = [];
+            let questIdx = 0;
 
             questMatches.forEach(q => {
                 if (!q.trim().startsWith('###')) return;
+                questIdx++;
 
                 const lines = q.split('\n');
                 const title = lines[0].replace('### ', '').trim();
+                const questId = `quest-${type}-${questIdx}`;
+                links.push({ title, id: questId });
                 
                 let imgUrl = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80";
                 for (const key in IMAGE_MAP) {
@@ -357,7 +419,7 @@
                 });
 
                 html += `
-                    <div class="quest-card ${type}">
+                    <div class="quest-card ${type}" id="${questId}">
                         <img src="${imgUrl}" 
                              onerror="this.src='${fallbackUrl}'" 
                              class="quest-img" 
@@ -369,7 +431,7 @@
                     </div>
                 `;
             });
-            return html;
+            return { html, links };
         }
 
         function switchTab(type) {
