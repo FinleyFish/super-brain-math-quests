@@ -23,7 +23,7 @@
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -40,14 +40,14 @@
             margin-bottom: 40px;
         }
         h1 {
-            font-family: 'Luckiest Guy', cursive;
+            font-family: 'Luckiest Guy', cursive, system-ui;
             font-size: 4rem;
             color: var(--highlight-color);
             text-shadow: 5px 5px 0px #4b3d8a;
             margin: 0;
         }
         .subtitle {
-            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Space Grotesk', sans-serif, system-ui;
             font-size: 1.3rem;
             color: #aaa;
             margin-top: 10px;
@@ -60,7 +60,7 @@
         }
         .tab-btn {
             padding: 15px 30px;
-            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Space Grotesk', sans-serif, system-ui;
             font-weight: 700;
             font-size: 1.2rem;
             text-transform: uppercase;
@@ -120,7 +120,7 @@
         }
         .quest-body { padding: 30px; }
         .quest-title {
-            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Space Grotesk', sans-serif, system-ui;
             font-size: 1.8rem;
             color: var(--highlight-color);
             margin: 0 0 15px 0;
@@ -136,21 +136,29 @@
             border-radius: 20px;
             text-transform: uppercase;
         }
+        /* --- THE FIXES --- */
+        .quest-text strong {
+            color: var(--highlight-color);
+            font-weight: 700;
+        }
         .task-block {
-            margin: 20px 0;
+            margin: 25px 0;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.3);
-            border-left: 5px solid var(--task-color);
+            background: rgba(0, 0, 0, 0.5);
+            border-left: 6px solid var(--task-color);
             border-radius: 0 15px 15px 0;
+            box-shadow: inset 0 0 15px rgba(0, 242, 255, 0.1);
         }
         .task-block strong {
-            color: var(--task-color);
+            color: var(--task-color) !important;
             display: block;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-bottom: 10px;
             text-transform: uppercase;
             letter-spacing: 1px;
+            font-family: 'Space Grotesk', sans-serif, system-ui;
         }
+        /* ----------------- */
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -190,7 +198,6 @@
                 if (!response.ok) throw new Error('Archive file not found');
                 const text = await response.text();
                 
-                // Split the file into Master and Junior sections
                 const splitIdx = text.indexOf('## 🦖');
                 if (splitIdx === -1) throw new Error('Could not find Junior section in archive');
                 
@@ -207,7 +214,6 @@
         }
 
         function renderQuests(sectionText, type) {
-            // Extract quests (anything starting with ###)
             const questMatches = sectionText.split(/\n(?=### )/);
             let html = "";
 
@@ -228,16 +234,16 @@
                 const vibeMatch = q.match(/\*\*The Vibe:\*\*\s*(.*?)\n/);
                 const vibe = vibeMatch ? vibeMatch[1] : "Adventure";
 
-                // Body processing
                 let bodyRaw = lines.slice(1).join('\n');
-                
-                // Convert Markdown to HTML first
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                // Now replace the Task lines with our stylized block
-                // Marked usually wraps these in <p> tags
-                const taskRegex = /<p><strong>(THE TASK:|TASK \d+:)<\/strong>(.*?)<\/p>/gi;
-                bodyHtml = bodyHtml.replace(taskRegex, '<div class="task-block"><strong>$1</strong>$2</div>');
+                // FLEXIBLE TASK RADIUS:
+                // Look for strings like <p><strong>THE TASK:</strong> ... </p>
+                // allowing for optional spaces and different tag orders.
+                const taskRegex = /<p>\s*<strong\s*[^>]*>(THE TASK:|TASK \d+:)\s*<\/strong>\s*(.*?)\s*<\/p>/gi;
+                bodyHtml = bodyHtml.replace(taskRegex, (match, label, content) => {
+                    return `<div class="task-block"><strong>${label}</strong>${content}</div>`;
+                });
 
                 html += `
                     <div class="quest-card ${type}">
