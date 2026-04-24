@@ -175,27 +175,27 @@
         .task-block {
             display: block;
             clear: both;
-            margin: 30px 0;
-            padding: 25px;
-            background: rgba(0, 0, 0, 0.6);
-            border-left: 8px solid var(--task-color);
-            border-radius: 0 20px 20px 0;
-            box-shadow: inset 0 0 20px rgba(0, 242, 255, 0.15);
+            margin: 20px 0;
+            padding: 15px 20px;
+            background: rgba(0, 0, 0, 0.4);
+            border-left: 5px solid var(--task-color);
+            border-radius: 0 12px 12px 0;
+            box-shadow: inset 0 0 10px rgba(0, 242, 255, 0.1);
             position: relative;
         }
         .task-block strong {
             color: var(--task-color) !important;
             display: block;
             font-family: 'Space Grotesk', sans-serif, system-ui;
-            font-size: 1.4rem;
-            margin-bottom: 12px;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 800;
+            letter-spacing: 1px;
+            font-weight: 700;
         }
         .task-block-content {
-            font-size: 1.2rem;
-            line-height: 1.5;
+            font-size: 1.1rem;
+            line-height: 1.4;
             color: #fff;
         }
         
@@ -288,7 +288,7 @@
                 bodyRaw = bodyRaw.replace(/^---$/gm, '<div class="quest-divider"></div>');
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                const pRegex = /<p>(.*?)<strong\s*[^>]*>(THE TASK:|TASK \d+:)\s*<\/strong>(.*?)<\/p>/gi;
+                const pRegex = /<p>(.*?)<strong\s*[^>]*>(THE TASK:|THE FINAL TASK:|TASK \d+:)\s*<\/strong>(.*?)<\/p>/gi;
                 bodyHtml = bodyHtml.replace(pRegex, (match, before, label, after) => {
                     let prefix = before.trim() ? `<p>${before}</p>` : "";
                     return `${prefix}<div class="task-block"><strong>${label}</strong><div class="task-block-content">${after}</div></div>`;
