@@ -28,6 +28,7 @@ You reach a massive stone door guarded by a Sphinx who only speaks in codes! To 
 You've found a Magic Cake! It is sliced into **24 delicious pieces**.
 - A hungry Fire-Dragon appears and demands **1/4** of the cake.
 - Then, a fancy Phoenix swoops down and takes **1/3** of the original cake.
+
 **THE TASK:** After the Dragon and the Phoenix have had their fill, **how many pieces of cake are left for you?**
 
 #### 🪞 Challenge 4: The Mirror Maze of Measurement
