@@ -52,8 +52,6 @@
             color: #aaa;
             margin-top: 10px;
         }
-
-        /* Tab Navigation */
         .tab-nav {
             display: flex;
             justify-content: center;
@@ -87,8 +85,6 @@
             box-shadow: 0 0 20px rgba(244, 114, 182, 0.3);
             transform: scale(1.05);
         }
-
-        /* Content Areas */
         .tab-content {
             display: none;
             animation: fadeIn 0.5s ease;
@@ -100,7 +96,6 @@
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
-
         .quest-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -114,21 +109,16 @@
             transition: transform 0.3s ease;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
-        .quest-card:hover {
-            transform: translateY(-5px);
-        }
+        .quest-card:hover { transform: translateY(-5px); }
         .quest-card.junior { border-color: var(--junior-primary); }
         .quest-card.master { border-color: var(--master-primary); }
-
         .quest-img {
             width: 100%;
             height: 300px;
             object-fit: cover;
             border-bottom: 3px solid var(--border-color);
         }
-        .quest-body {
-            padding: 30px;
-        }
+        .quest-body { padding: 30px; }
         .quest-title {
             font-family: 'Space Grotesk', sans-serif;
             font-size: 1.8rem;
@@ -146,8 +136,6 @@
             border-radius: 20px;
             text-transform: uppercase;
         }
-
-        /* Task Styling */
         .task-block {
             margin: 20px 0;
             padding: 20px;
@@ -163,7 +151,6 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -178,19 +165,12 @@
             <h1>🌟 SUPER-BRAIN ARCHIVES 🌟</h1>
             <div class="subtitle">Epic Math Quests for Brave Minds</div>
         </header>
-
         <div class="tab-nav">
             <div id="btn-junior" class="tab-btn" onclick="switchTab('junior')">🦖 Junior Explorer [5-7]</div>
             <div id="btn-master" class="tab-btn" onclick="switchTab('master')">👑 Master Navigator [8-11]</div>
         </div>
-
-        <div id="tab-junior" class="tab-content junior-theme">
-            <div class="quest-grid" id="grid-junior"></div>
-        </div>
-        <div id="tab-master" class="tab-content master-theme">
-            <div class="quest-grid" id="grid-master"></div>
-        </div>
-
+        <div id="tab-junior" class="tab-content"><div class="quest-grid" id="grid-junior"></div></div>
+        <div id="tab-master" class="tab-content"><div class="quest-grid" id="grid-master"></div></div>
         <div class="footer">Compiled by Finley & Mr. Numbers | Galactic Edition 2026</div>
     </div>
 
@@ -207,37 +187,36 @@
         async function init() {
             try {
                 const response = await fetch('SuperBrain_MathQuests_Archive.md');
+                if (!response.ok) throw new Error('Archive file not found');
                 const text = await response.text();
                 
-                // Split into the two main categories
-                const parts = text.split(/\n(?=## 🦖)/);
-                const masterContent = parts[0];
-                const juniorContent = parts[1] || "";
-
-                document.getElementById('grid-master').innerHTML = renderQuests(masterContent, 'master');
-                document.getElementById('grid-junior').innerHTML = renderQuests(juniorContent, 'junior');
+                // Split the file into Master and Junior sections
+                const splitIdx = text.indexOf('## 🦖');
+                if (splitIdx === -1) throw new Error('Could not find Junior section in archive');
                 
-                // Default to Master
+                const masterSection = text.substring(0, splitIdx);
+                const juniorSection = text.substring(splitIdx);
+
+                document.getElementById('grid-master').innerHTML = renderQuests(masterSection, 'master');
+                document.getElementById('grid-junior').innerHTML = renderQuests(juniorSection, 'junior');
                 switchTab('master');
             } catch (e) {
                 console.error(e);
+                document.getElementById('grid-master').innerHTML = `<p style="color:red">Error loading quests: ${e.message}</p>`;
             }
         }
 
-        function renderQuests(content, type) {
-            // Remove the category header from the content to prevent duplication
-            const cleanContent = content.replace(/^#.*?\n|^##.*?\n/gm, '').trim();
-            
-            const quests = cleanContent.split(/\n(?=### )/);
+        function renderQuests(sectionText, type) {
+            // Extract quests (anything starting with ###)
+            const questMatches = sectionText.split(/\n(?=### )/);
             let html = "";
 
-            quests.forEach(q => {
+            questMatches.forEach(q => {
                 if (!q.trim().startsWith('###')) return;
 
                 const lines = q.split('\n');
                 const title = lines[0].replace('### ', '').trim();
                 
-                // Find Image
                 let imgUrl = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80";
                 for (const key in IMAGE_MAP) {
                     if (title.toLowerCase().includes(key.toLowerCase())) {
@@ -246,29 +225,26 @@
                     }
                 }
 
-                // Extract Vibe
                 const vibeMatch = q.match(/\*\*The Vibe:\*\*\s*(.*?)\n/);
                 const vibe = vibeMatch ? vibeMatch[1] : "Adventure";
 
-                // Process Body: a) Remove title, b) Fix Task formatting
-                let body = lines.slice(1).join('\n');
+                // Body processing
+                let bodyRaw = lines.slice(1).join('\n');
                 
-                // Replace TASK with a styled div
-                body = body.replace(/(\*\*THE TASK:\*\*|\*\*TASK \d+:\*\*)/g, '<div class="task-block"><strong>$1</strong>');
-                // Need to close the div. This is tricky with regex. 
-                // Better: wrap the whole line if it starts with TASK.
-                // Let's refine: replace the pattern and then manually add </div> at the end of the logic.
-                // Actually, the easiest way is to replace the task line with a block.
+                // Convert Markdown to HTML first
+                let bodyHtml = marked.parse(bodyRaw);
                 
-                const processedBody = marked.parse(body).replace(/<p><strong>(THE TASK:|TASK \d+:)<\/strong>(.*?)<\/p>/g, 
-                    '<div class="task-block"><strong>$1</strong>$2</div>');
+                // Now replace the Task lines with our stylized block
+                // Marked usually wraps these in <p> tags
+                const taskRegex = /<p><strong>(THE TASK:|TASK \d+:)<\/strong>(.*?)<\/p>/gi;
+                bodyHtml = bodyHtml.replace(taskRegex, '<div class="task-block"><strong>$1</strong>$2</div>');
 
                 html += `
                     <div class="quest-card ${type}">
                         <img src="${imgUrl}" class="quest-img" alt="${title}">
                         <div class="quest-body">
                             <h3 class="quest-title">${title} <span class="vibe-tag">${vibe}</span></h3>
-                            <div class="quest-text">${processedBody}</div>
+                            <div class="quest-text">${bodyHtml}</div>
                         </div>
                     </div>
                 `;
