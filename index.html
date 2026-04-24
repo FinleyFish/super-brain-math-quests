@@ -330,9 +330,10 @@
                 let bodyHtml = marked.parse(bodyRaw);
                 
                 // --- HANDLE ANSWERS ---
-                const aRegex = /<p><strong\s*[^>]*>(ANSWER:)\s*<\/strong>(.*?)<\/p>/gi;
-                bodyHtml = bodyHtml.replace(aRegex, (match, label, content) => {
-                    return `<div class="answer-wrapper">
+                const aRegex = /<p>(.*?)<strong\s*[^>]*>(ANSWER:)\s*<\/strong>(.*?)<\/p>/gi;
+                bodyHtml = bodyHtml.replace(aRegex, (match, leading, label, content) => {
+                    const prefix = leading.trim() ? `<p>${leading}</p>` : '';
+                    return `${prefix}<div class="answer-wrapper">
                         <button class="answer-btn" onclick="toggleAnswer(this)">🔍 Reveal the Secret Answer</button>
                         <div class="answer-content">${content}</div>
                     </div>`;

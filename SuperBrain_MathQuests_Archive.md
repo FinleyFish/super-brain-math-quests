@@ -16,6 +16,8 @@ You step into a forest where the trees grow silver coins instead of leaves! You 
 
 **THE TASK:** How many silver coins do you have in total?
 
+**ANSWER:** 93 silver coins (6 x 15 + 3)
+
 #### 🗿 Challenge 2: The Riddle of the Stone Sphinx
 You reach a massive stone door guarded by a Sphinx who only speaks in codes! To pass, you must figure out the **Secret Identity Number**.
 1. I am a **3-digit number**.
@@ -25,6 +27,8 @@ You reach a massive stone door guarded by a Sphinx who only speaks in codes! To 
 
 **THE TASK:** What is the Secret Identity Number?
 
+**ANSWER:** 862
+
 #### 🍰 Challenge 3: The Dragon's Dessert Dilemma
 You've found a Magic Cake! It is sliced into **24 delicious pieces**.
 - A hungry Fire-Dragon appears and demands **1/4** of the cake.
@@ -32,15 +36,21 @@ You've found a Magic Cake! It is sliced into **24 delicious pieces**.
 
 **THE TASK:** After the Dragon and the Phoenix have had their fill, **how many pieces of cake are left for you?**
 
+**ANSWER:** 10 pieces (24 - 6 - 8)
+
 #### 🪞 Challenge 4: The Mirror Maze of Measurement
 You enter a rectangular maze made of shimmering mirrors. The **Length** of the maze is **12 meters**. The **Width** of the maze is exactly **half** of the length. To keep from getting lost, you decide to place a glow-torch every **3 meters** along the entire outer edge (the perimeter) of the maze.
 
 **THE TASK:** How many glow-torches do you need to light up the perimeter?
 
+**ANSWER:** 12 glow-torches (Perimeter = 12+12+6+6 = 36 / 3 = 12)
+
 #### 🏰 Challenge 5: The Clockwork Tower Climb
 You've reached the final tower! The Great Gate opens at **14:30 (2:30 PM)**. Once you enter, it takes you **45 minutes** to climb the spiral stairs and another **20 minutes** to battle a grumpy Robot Guard at the top.
 
 **THE TASK:** If you enter the tower the second the gate opens at 14:30, **exactly what time will you finish your battle with the Robot Guard?**
+
+**ANSWER:** 15:35 (or 3:35 PM)
 
 #### 💎 THE GRANDMASTER BONUS CHALLENGE
 To unlock the Vault of Truth, you must find the **Master Key**.
@@ -48,6 +58,8 @@ To unlock the Vault of Truth, you must find the **Master Key**.
 **Part B:** Take that missing number and **multiply it by the number of sides on a Hexagon.**
 
 **THE FINAL TASK:** What is the Master Key number?
+
+**ANSWER:** 252 (42 x 6)
 
 ---
 
@@ -60,36 +72,52 @@ Before we launch, we need to check the fuel! The *S.S. Super-Brain* has **15 fue
 
 **THE TASK:** Exactly how many gallons of fuel do we have left for our journey?
 
+**ANSWER:** 310 gallons (15 x 24 - 50)
+
 #### 💎 Challenge 2: Stellar Shard Sorting
 You find two glowing Stellar Shards floating in the void. The first one is **2/3 of a unit**, and the second one is **1/6 of a unit**. To power your warp drive, you need to combine them into one big crystal!
 
 **THE TASK:** What is the total size of the combined Stellar Shard?
+
+**ANSWER:** 5/6 of a unit (4/6 + 1/6)
 
 #### ☄️ Challenge 3: The Asteroid Belt Budget
 You've reached the Asteroid Belt! You have a budget of **2,500 Galactic Credits**. You spend **412.50 credits** on a high-tech star-map and some luxury space-snacks for the crew. You decide to split the **remaining credits** equally between your **4 crew members**.
 
 **THE TASK:** How many credits does each crew member get?
 
+**ANSWER:** 521.88 credits ((2500 - 412.50) / 4)
+
 #### 🛰️ Challenge 4: The Omega Station Outpost
 You stop at the Omega Station to make repairs. The station's docking bay is a perfect rectangle, measuring **60 meters long** and **35 meters wide**.
 
 **TASK 1:** What is the total Area of the docking bay?
 
+**ANSWER:** 2,100 square meters (60 x 35)
+
 **TASK 2:** If you want to install a neon warning light around the entire outside edge (the Perimeter), how many meters of lighting do you need?
+
+**ANSWER:** 190 meters (60+60+35+35)
 
 #### 🌌 Challenge 5: The Light-Year Leap
 It's time for the big jump! The *S.S. Super-Brain* begins its Warp-Leap at **10:15 AM**. The jump is intense and takes exactly **95 minutes** to complete.
 
 **THE TASK:** At what exact time do you emerge on the other side of the galaxy?
 
+**ANSWER:** 11:50 AM
+
 #### 🌙 Challenge 6: The Moon-Dust Market
 You visit a lunar market to buy a rare "Anti-Gravity Pebble" for **$22.45**. You reach into your space-wallet and hand the merchant a **$50 bill**.
 
 **THE TASK:** Exactly how much change should the merchant give you back?
 
+**ANSWER:** $27.55
+
 #### 🌀 THE SUPER-BRAIN COSMIC RIDDLE
 To unlock the coordinates to the Neon Nebula, you must solve the **Riddle of the Void**:
 *"I am thinking of a secret number. If you **double** it, **add 20**, and then **divide the whole thing by 5**, the result is **8**. What is my secret number?"*
+
+**ANSWER:** 10 ((8 x 5 - 20) / 2)
 
 ---
 
@@ -103,33 +131,47 @@ Calculate this: **(450 + 1,275) - (312 + 88)**.
 
 **THE TASK:** What is the final energy frequency required to ignite the core?
 
+**ANSWER:** 1325
+
 #### 💎 Challenge 2: Prism Shard Precision
 You've found a giant cosmic prism! It's broken into pieces. You have **three-quarters (3/4)** of a shard, but the anomaly sucks away **one-eighth (1/8)** of it.
 
 **THE TASK:** What fraction of the shard do you have left?
+
+**ANSWER:** 5/8 of a shard (6/8 - 1/8)
 
 #### 🐌 Challenge 3: The Comet-Tail Toll
 You encounter a space-toll booth managed by a very grumpy space-slug. The toll is **$45.65**. You pay with a **$100 galactic credit**.
 
 **THE TASK:** How much change does the grumpy space-slug give back to you?
 
+**ANSWER:** $54.35
+
 #### 🌟 Challenge 4: The Dyson Ring Perimeter
 You are designing a containment field around a dying star. The field is a rectangle. The length is **1,500 light-years** and the width is **850 light-years**.
 
 **THE TASK:** What is the total Perimeter of the containment field?
+
+**ANSWER:** 4700 light-years (1500+1500+850+850)
 
 #### ⏳ Challenge 5: The Chrono-Shift Paradox
 You enter a time-warp! You arrive at the Prism Station at **8:45 AM**, but because of the warp, you spend exactly **3 hours and 50 minutes** in a time-loop.
 
 **THE TASK:** What time is it on the station clock when you finally break the loop?
 
+**ANSWER:** 12:35 PM
+
 #### ⚡ Challenge 6: Nebula Battery Balance
 You have **4 large plasma batteries**. Each battery holds **12.5 gigawatts**. You use **30 gigawatts** to power your shields.
 
 **THE TASK:** How many gigawatts are left across all your batteries combined?
 
+**ANSWER:** 20 gigawatts (4 x 12.5 - 30)
+
 #### ⚛️ THE SUPER-BRAIN COSMIC RIDDLE: VOLUME 2
 *"I am thinking of a secret number. If you multiply it by 3, subtract 7, and then double the whole result, you get 28. What is my secret number?"*
+
+**ANSWER:** 7 ((28 / 2 + 7) / 3)
 
 ---
 
@@ -144,6 +186,8 @@ There are three gears in a row.
 
 **THE TASK:** If the **Large Gear** makes **12 full rotations**, how many total rotations does the **Small Gear** make?
 
+**ANSWER:** 180 rotations (12 x 3 x 5)
+
 #### 💎 Level 2: The Hall of Infinite Fractions
 A brave explorer finds a crystal bridge.
 - 1/3 of the bridge is made of Sapphire.
@@ -152,19 +196,29 @@ A brave explorer finds a crystal bridge.
 
 **TASK 1:** What **fraction** of the bridge is made of Ruby?
 
+**ANSWER:** 4/15 (1 - 1/3 - 2/5 = 15/15 - 5/15 - 6/15)
+
 **TASK 2:** If the bridge is 60 meters long, how many meters is the Ruby section?
+
+**ANSWER:** 16 meters (60 x 4/15)
 
 #### 🗝️ Level 3: The Vault of Vanishing Variables
 The lock shows this equation: **(4 x STAR) + 12 = 52**.
 
 **TASK 1:** What is the value of the **STAR**?
 
+**ANSWER:** 10 (52 - 12 = 40 / 4 = 10)
+
 **TASK 2:** Once you find the STAR, multiply it by 7 to get the final vault key!
+
+**ANSWER:** 70
 
 ####  Sphinx Level 4: THE FINAL BOSS — The Chronos Sphinx
 *"I am thinking of a number. If you multiply my number by 8, then subtract 14, and finally divide the result by 2... you get 23."*
 
 **THE TASK:** What is the secret number?
+
+**ANSWER:** 7.5 ((23 x 2 + 14) / 8)
 
 ---
 
@@ -177,17 +231,25 @@ The cave entrance is blocked by a wall of singing crystals. They only move if yo
 
 **THE TASK:** What are the **next two numbers** in this sequence?
 
+**ANSWER:** 162 and 486 (multiply by 3)
+
 #### 📏 Level 2: The Mirror Maze
 The room is a rectangle, **12 meters long** and **8 meters wide**. Right down the middle of the room (from one short end to the other), there is a sparkly crystal path that is **1 meter wide**.
 
 **TASK 1:** What is the **area** of the crystal path?
 
+**ANSWER:** 12 square meters (12 x 1)
+
 **TASK 2:** What is the **remaining area** of the floor?
+
+**ANSWER:** 84 square meters (96 - 12)
 
 #### 🔮 Level 3: The Prism Puzzle
 *"I am thinking of a secret number. If you **multiply it by 4**, then **subtract 5.5**, and finally **add 2.5**... you get **17**."*
 
 **THE TASK:** What is the secret number?
+
+**ANSWER:** 5 ((17 - 2.5 + 5.5) / 4)
 
 #### 🗝️ Level 4: THE FINAL CODE
 The Diamond Data-Drive is inside a chest with a 3-digit combination lock:
@@ -196,6 +258,8 @@ The Diamond Data-Drive is inside a chest with a 3-digit combination lock:
 - **Digit 3:** The result of **15 divided by 3**.
 
 **THE TASK:** What is the **3-digit code** to unlock the chest?
+
+**ANSWER:** 335
 
 ---
 
@@ -210,33 +274,47 @@ You find a nest of colorful dinosaur eggs! In the first nest, there are **24 blu
 
 **THE TASK:** How many dinosaur eggs did you find in total?
 
+**ANSWER:** 61 eggs
+
 #### 🥩 Challenge 2: Feeding the T-Rex
 A hungry T-Rex has **50 juicy steaks** for lunch. He's a little bit greedy and eats **22 of them** in one giant gulp!
 
 **THE TASK:** How many steaks does the T-Rex have left for his afternoon snack?
+
+**ANSWER:** 28 steaks
 
 #### 🛡️ Challenge 3: Stegosaurus Scales
 You meet a Stegosaurus who has **5 rows of bony plates** on his back. Each row has **4 plates**.
 
 **THE TASK:** How many plates does the Stegosaurus have in total?
 
+**ANSWER:** 20 plates
+
 #### 🎁 Challenge 4: The Dino-Gift Shop
 You visit the prehistoric gift shop! You want to buy a cool Dino-Toy for **$12**. You hand the shopkeeper a **$20 bill**.
 
 **THE TASK:** How much change should the shopkeeper give you back?
+
+**ANSWER:** $8 change
 
 #### 😴 Challenge 5: The Big Dino-Nap
 The Brachiosaurus is taking a nap! He fell asleep at **2 o'clock** and woke up at **half-past 3**.
 
 **THE TASK:** How many minutes did the Brachiosaurus sleep?
 
+**ANSWER:** 90 minutes
+
 #### 🐦 Challenge 6: Pterodactyl Perches
 There are **12 Pterodactyls** wanting to land on **3 big trees**. If they split up so that each tree has the exact same number of birds...
 
 **THE TASK:** How many Pterodactyls will be on each tree?
 
+**ANSWER:** 4 Pterodactyls per tree
+
 #### 🏮 THE SUPER-BRAIN JUNIOR RIDDLE
 *"I am thinking of a secret number. If you add 5 to it, then take away 2, you get 10. What is my secret number?"*
+
+**ANSWER:** 7 (10 + 2 - 5)
 
 ---
 **END OF ARCHIVE**
