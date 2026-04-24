@@ -184,6 +184,41 @@
             box-shadow: inset 0 0 10px rgba(0, 242, 255, 0.1);
             position: relative;
         }
+        .answer-btn {
+            display: block;
+            width: fit-content;
+            margin: 15px 0 0 0;
+            padding: 8px 16px;
+            background: transparent;
+            border: 2px solid var(--task-color);
+            color: var(--task-color);
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .answer-btn:hover {
+            background: var(--task-color);
+            color: #000;
+        }
+        .answer-content {
+            display: none;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px dashed var(--task-color);
+            color: var(--highlight-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+            animation: slideDown 0.3s ease forwards;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
         .task-block > strong {
             color: var(--task-color) !important;
             display: block;
@@ -294,6 +329,16 @@
                 bodyRaw = bodyRaw.replace(/^---$/gm, '<div class="quest-divider"></div>');
                 let bodyHtml = marked.parse(bodyRaw);
                 
+                // --- HANDLE ANSWERS ---
+                const aRegex = /<p><strong\s*[^>]*>(ANSWER:)\s*<\/strong>(.*?)<\/p>/gi;
+                bodyHtml = bodyHtml.replace(aRegex, (match, label, content) => {
+                    return `<div class="answer-wrapper">
+                        <button class="answer-btn" onclick="toggleAnswer(this)">🔍 Reveal the Secret Answer</button>
+                        <div class="answer-content">${content}</div>
+                    </div>`;
+                });
+
+                // --- HANDLE TASK BLOCKS ---
                 const pRegex = /<p>(.*?)<strong\s*[^>]*>(THE TASK:|THE FINAL TASK:|TASK \d+:)\s*<\/strong>(.*?)<\/p>/gi;
                 bodyHtml = bodyHtml.replace(pRegex, (match, before, label, after) => {
                     let prefix = before.trim() ? `<p>${before}</p>` : "";
@@ -328,6 +373,17 @@
             } else {
                 document.getElementById('tab-master').classList.add('active');
                 document.getElementById('btn-master').classList.add('active-master');
+            }
+        }
+
+        function toggleAnswer(btn) {
+            const content = btn.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                btn.innerText = "🔍 Reveal the Secret Answer";
+            } else {
+                content.style.display = "block";
+                btn.innerText = "✅ Hide Answer";
             }
         }
 
