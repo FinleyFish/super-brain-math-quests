@@ -108,17 +108,20 @@
             overflow: hidden;
             transition: transform 0.3s ease;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
         }
         .quest-card:hover { transform: translateY(-5px); }
         .quest-card.junior { border-color: var(--junior-primary); }
         .quest-card.master { border-color: var(--master-primary); }
         .quest-img {
             width: 100%;
-            height: 300px;
+            height: 350px;
             object-fit: cover;
             border-bottom: 3px solid var(--border-color);
+            display: block;
         }
-        .quest-body { padding: 30px; }
+        .quest-body { padding: 30px; flex-grow: 1; }
         .quest-title {
             font-family: 'Space Grotesk', sans-serif, system-ui;
             font-size: 1.8rem;
@@ -127,6 +130,7 @@
             display: flex;
             align-items: center;
             gap: 15px;
+            line-height: 1.2;
         }
         .vibe-tag {
             font-size: 0.8rem;
@@ -135,30 +139,44 @@
             padding: 4px 12px;
             border-radius: 20px;
             text-transform: uppercase;
+            white-space: nowrap;
         }
-        /* --- THE FIXES --- */
+        .quest-text {
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
         .quest-text strong {
             color: var(--highlight-color);
             font-weight: 700;
         }
+        /* --- THE ULTIMATE TASK FIX --- */
         .task-block {
-            margin: 25px 0;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.5);
-            border-left: 6px solid var(--task-color);
-            border-radius: 0 15px 15px 0;
-            box-shadow: inset 0 0 15px rgba(0, 242, 255, 0.1);
+            display: block;
+            clear: both;
+            margin: 30px 0;
+            padding: 25px;
+            background: rgba(0, 0, 0, 0.6);
+            border-left: 8px solid var(--task-color);
+            border-radius: 0 20px 20px 0;
+            box-shadow: inset 0 0 20px rgba(0, 242, 255, 0.15);
+            position: relative;
         }
         .task-block strong {
             color: var(--task-color) !important;
             display: block;
-            font-size: 1.3rem;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
             font-family: 'Space Grotesk', sans-serif, system-ui;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 800;
         }
-        /* ----------------- */
+        .task-block-content {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #fff;
+        }
+        /* --------------------------- */
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -237,12 +255,11 @@
                 let bodyRaw = lines.slice(1).join('\n');
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                // FLEXIBLE TASK RADIUS:
-                // Look for strings like <p><strong>THE TASK:</strong> ... </p>
-                // allowing for optional spaces and different tag orders.
-                const taskRegex = /<p>\s*<strong\s*[^>]*>(THE TASK:|TASK \d+:)\s*<\/strong>\s*(.*?)\s*<\/p>/gi;
+                // TOTAL OVERHAUL OF TASK REPLACEMENT
+                // We look for any <p> tags that contain "THE TASK:" and convert them to a distinct div
+                const taskRegex = /<p>\s*<strong\s*[^>]*>(THE TASK:|TASK \d+:)\s*<\/strong>(.*?)\s*<\/p>/gi;
                 bodyHtml = bodyHtml.replace(taskRegex, (match, label, content) => {
-                    return `<div class="task-block"><strong>${label}</strong>${content}</div>`;
+                    return `<div class="task-block"><strong>${label}</strong><div class="task-block-content">${content}</div></div>`;
                 });
 
                 html += `
