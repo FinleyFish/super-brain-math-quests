@@ -226,7 +226,38 @@ The lock shows this equation: **(4 x STAR) + 12 = 52**.
 **The Vibe:** Subterranean / Crystalline
 **The Plot:** Deep beneath the surface lies the Crystal Caves, a place where the walls are made of glowing gems that store ancient knowledge. You must use Cryptography to unlock the path to the Diamond Data-Drive!
 
-**THE TASK:** What is the the a 3-digit code to unlock the chest?
+#### 🎶 Level 1: The Echoing Entrance
+The cave entrance is blocked by a wall of singing crystals. They only move if you can complete their melody of numbers: **2, 6, 18, 54, ...**
+
+**THE TASK:** What are the **next two numbers** in this sequence?
+
+**ANSWER:** 162 and 486 (multiply by 3)
+
+#### 📏 Level 2: The Mirror Maze
+The room is a rectangle, **12 meters long** and **8 meters wide**. Right down the middle of the room (from one short end to the other), there is a sparkly crystal path that is **1 meter wide**.
+
+**TASK 1:** What is the **area** of the crystal path?
+
+**ANSWER:** 12 square meters (12 x 1)
+
+**TASK 2:** What is the **remaining area** of the floor?
+
+**ANSWER:** 84 square meters (96 - 12)
+
+#### 🔮 Level 3: The Prism Puzzle
+*"I am thinking of a secret number. If you **multiply it by 4**, then **subtract 5.5**, and finally **add 2.5**... you get **17**."*
+
+**THE TASK:** What is the secret number?
+
+**ANSWER:** 5 ((17 - 2.5 + 5.5) / 4)
+
+#### 🗝️ Level 4: THE FINAL CODE
+The Diamond Data-Drive is inside a chest with a 3-digit combination lock:
+- **Digit 1:** The smallest **odd** prime number.
+- **Digit 2:** The number of sides on a **hexagon**, minus 3.
+- **Digit 3:** The result of **15 divided by 3**.
+
+**THE TASK:** What is the **3-digit code** to unlock the chest?
 
 **ANSWER:** 335
 
@@ -270,6 +301,61 @@ To protect the city, you must deploy a rectangular energy shield. The area is **
 **THE TASK:** What is the mystery number to shut the Void portal?
 
 **ANSWER:** 7
+
+---
+
+## 🦖 THE JUNIOR EXPLORER'S EXPEDITION [Ages 5-7] 🦖
+
+### 1. 🦕 The Great Dino-Discovery Adventure
+**The Vibe:** Prehistoric / Exploration
+**The Plot:** You've just landed in the Valley of the Giants! The dinosaurs are friendly, but they LOVE puzzles. To earn your "Master Dino-Explorer" badge, you must solve these prehistoric puzzles!
+
+#### 🥚 Challenge 1: The Egg Hunt
+You find a nest of colorful dinosaur eggs! In the first nest, there are **24 blue eggs**. In the second nest, there are **37 green eggs**.
+
+**THE TASK:** How many dinosaur eggs did you find in total?
+
+**ANSWER:** 61 eggs
+
+#### 🥩 Challenge 2: Feeding the T-Rex
+A hungry T-Rex has **50 juicy steaks** for lunch. He's a little bit greedy and eats **22 of them** in one giant gulp!
+
+**THE TASK:** How many steaks does the T-Rex have left for his afternoon snack?
+
+**ANSWER:** 28 steaks
+
+#### 🛡️ Challenge 3: Stegosaurus Scales
+You meet a Stegosaurus who has **5 rows of bony plates** on his back. Each row has **4 plates**.
+
+**THE TASK:** How many plates does the Stegosaurus have in total?
+
+**ANSWER:** 20 plates
+
+#### 🎁 Challenge 4: The Dino-Gift Shop
+You visit the prehistoric gift shop! You want to buy a cool Dino-Toy for **$12**. You hand the shopkeeper a **$20 bill**.
+
+**THE TASK:** How much change should the shopkeeper give you back?
+
+**ANSWER:** $8 change
+
+#### 😴 Challenge 5: The Big Dino-Nap
+The Brachiosaurus is taking a nap! He fell asleep at **2 o'clock** and woke up at **half-past 3**.
+
+**THE TASK:** How many minutes did the Brachiosaurus sleep?
+
+**ANSWER:** 90 minutes
+
+#### 🐦 Challenge 6: Pterodactyl Perches
+There are **12 Pterodactyls** wanting to land in **3 big trees**. If they split up so that each tree has the exact same number of birds...
+
+**THE TASK:** How many Pterodactyls will be on each tree?
+
+**ANSWER:** 4 Pterodactyls per tree
+
+#### 🏮 THE SUPER-BRAIN JUNIOR RIDDLE
+*"I am thinking of a secret number. If you add 5 to it, then take away 2, you get 10. What is my secret number?"*
+
+**ANSWER:** 7 (10 + 2 - 5)
 
 ---
 **END OF ARCHIVE**
