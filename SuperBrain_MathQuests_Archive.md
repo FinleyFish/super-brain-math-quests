@@ -226,95 +226,50 @@ The lock shows this equation: **(4 x STAR) + 12 = 52**.
 **The Vibe:** Subterranean / Crystalline
 **The Plot:** Deep beneath the surface lies the Crystal Caves, a place where the walls are made of glowing gems that store ancient knowledge. You must use Cryptography to unlock the path to the Diamond Data-Drive!
 
-#### 🎶 Level 1: The Echoing Entrance
-The cave entrance is blocked by a wall of singing crystals. They only move if you can complete their melody of numbers: **2, 6, 18, 54, ...**
-
-**THE TASK:** What are the **next two numbers** in this sequence?
-
-**ANSWER:** 162 and 486 (multiply by 3)
-
-#### 📏 Level 2: The Mirror Maze
-The room is a rectangle, **12 meters long** and **8 meters wide**. Right down the middle of the room (from one short end to the other), there is a sparkly crystal path that is **1 meter wide**.
-
-**TASK 1:** What is the **area** of the crystal path?
-
-**ANSWER:** 12 square meters (12 x 1)
-
-**TASK 2:** What is the **remaining area** of the floor?
-
-**ANSWER:** 84 square meters (96 - 12)
-
-#### 🔮 Level 3: The Prism Puzzle
-*"I am thinking of a secret number. If you **multiply it by 4**, then **subtract 5.5**, and finally **add 2.5**... you get **17**."*
-
-**THE TASK:** What is the secret number?
-
-**ANSWER:** 5 ((17 - 2.5 + 5.5) / 4)
-
-#### 🗝️ Level 4: THE FINAL CODE
-The Diamond Data-Drive is inside a chest with a 3-digit combination lock:
-- **Digit 1:** The smallest **odd** prime number.
-- **Digit 2:** The number of sides on a **hexagon**, minus 3.
-- **Digit 3:** The result of **15 divided by 3**.
-
-**THE TASK:** What is the **3-digit code** to unlock the chest?
+**THE TASK:** What is the the a 3-digit code to unlock the chest?
 
 **ANSWER:** 335
 
 ---
 
-## 🦖 THE JUNIOR EXPLORER'S EXPEDITION [Ages 5-7] 🦖
+### 6. 🌌 The Collapse of the Crystal Citadel
+**The Vibe:** Cosmic Emergency / High-Stakes
+**The Plot:** The Crystal Citadel is floating away into a black hole! To stabilize the city, you must solve these five ancient codes. If you fail, the city drifts into the void... but if you succeed, you'll earn a new title for your Hall of Fame!
 
-### 1. 🦕 The Great Dino-Discovery Adventure
-**The Vibe:** Prehistoric / Exploration
-**The Plot:** You've just landed in the Valley of the Giants! The dinosaurs are friendly, but they LOVE puzzles. To earn your "Master Dino-Explorer" badge, you must solve these prehistoric puzzles!
+#### ⚡ Code 1: The Gravity Lock
+The lock requires a number. The digit **7** is in the ten-thousands place, the **4** is in the hundreds place, and the **2** is in the ones place. All other digits are **0**. 
 
-#### 🥚 Challenge 1: The Egg Hunt
-You find a nest of colorful dinosaur eggs! In the first nest, there are **24 blue eggs**. In the second nest, there are **37 green eggs**.
+**THE TASK:** What is the number to unlock the Gravity Lock?
 
-**THE TASK:** How many dinosaur eggs did you find in total?
+**ANSWER:** 70402
 
-**ANSWER:** 61 eggs
+#### 💎 Code 2: The Shattered Prism
+The Citadel's main prism is broken! You have **3/4** of the energy crystals needed to fix it, but a Space-Slug eats **1/8** of the total crystals. 
 
-#### 🥩 Challenge 2: Feeding the T-Rex
-A hungry T-Rex has **50 juicy steaks** for lunch. He's a little bit greedy and eats **22 of them** in one giant gulp!
+**THE TASK:** How much of the energy total do you have left to repair the prism?
 
-**THE TASK:** How many steaks does the T-Rex have left for his afternoon snack?
+**ANSWER:** 5/8
 
-**ANSWER:** 28 steaks
+#### 💰 Code 3: The Galactic Trade
+You need to buy a Warp-Core from a grumpy alien. It costs **$32.50**, but because you're a Math Legend, he gives you a **20% "Genius Discount"**. 
 
-#### 🛡️ Challenge 3: Stegosaurus Scales
-You meet a Stegosaurus who has **5 rows of bony plates** on his back. Each row has **4 plates**.
+**THE TASK:** How much money do you save, and what is the final price of the filament?
 
-**THE TASK:** How many plates does the Stegosaurus have in total?
+**ANSWER:** Save $6.50, Final Price $26.00
 
-**ANSWER:** 20 plates
+#### 📏 Code 4: The Perimeter Shield
+To protect the city, you must deploy a rectangular energy shield. The area is **12 metres by 7 metres**. 
 
-#### 🎁 Challenge 4: The Dino-Gift Shop
-You visit the prehistoric gift shop! You want to buy a cool Dino-Toy for **$12**. You hand the shopkeeper a **$20 bill**.
+**THE TASK:** How many metres of energy-plasma do you need to wrap all the way around the edge (the perimeter)?
 
-**THE TASK:** How much change should the shopkeeper give you back?
+**ANSWER:** 38m
 
-**ANSWER:** $8 change
+#### 🕵️ Code 5: The Void Riddle
+*"I am thinking of a number. If you multiply it by 6, then subtract 12, and then divide by 2, you get 15."*
 
-#### 😴 Challenge 5: The Big Dino-Nap
-The Brachiosaurus is taking a nap! He fell asleep at **2 o'clock** and woke up at **half-past 3**.
+**THE TASK:** What is the mystery number to shut the Void portal?
 
-**THE TASK:** How many minutes did the Brachiosaurus sleep?
-
-**ANSWER:** 90 minutes
-
-#### 🐦 Challenge 6: Pterodactyl Perches
-There are **12 Pterodactyls** wanting to land on **3 big trees**. If they split up so that each tree has the exact same number of birds...
-
-**THE TASK:** How many Pterodactyls will be on each tree?
-
-**ANSWER:** 4 Pterodactyls per tree
-
-#### 🏮 THE SUPER-BRAIN JUNIOR RIDDLE
-*"I am thinking of a secret number. If you add 5 to it, then take away 2, you get 10. What is my secret number?"*
-
-**ANSWER:** 7 (10 + 2 - 5)
+**ANSWER:** 7
 
 ---
 **END OF ARCHIVE**
