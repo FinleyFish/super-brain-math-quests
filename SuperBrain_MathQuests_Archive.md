@@ -304,6 +304,35 @@ To protect the city, you must deploy a rectangular energy shield. The area is **
 
 ---
 
+### 7. 🌌 The Void-Sentry’s Trial
+**The Vibe:** Cosmic Mystery / Security Breach
+**The Plot:** The Vault of the Infinite Prism is protected by a sentient Sentry who only allows those with a "Super-Brain" to enter. To retrieve the Star-Core Crystal, you must bypass three high-security locks using pure logic!
+
+#### 🔒 Lock 1: The Equation Riddle
+The Sentry speaks in riddles. To pass, you must find the secret number X.
+*"I am a number. If you multiply me by 3 and then subtract 5, you get the exact same result as if you had simply added 10 to me."*
+
+**THE TASK:** Who is the secret number X?
+
+**ANSWER:** 7.5 (3x - 5 = x + 10 → 2x = 15 → x = 7.5)
+
+#### 🔒 Lock 2: The Painted Cube
+You find a giant cube made of smaller 1cm x 1cm x 1cm blocks. The large cube is exactly 4cm wide, 4cm long, and 4cm high. The Sentry has painted the entire outside of the large cube bright neon red. If you were to break the large cube back apart into its tiny 1cm pieces:
+
+**THE TASK:** How many of those small cubes would have exactly TWO sides painted red?
+
+**ANSWER:** 24 small cubes (There are 12 edges; each edge has 2 blocks that aren't corners)
+
+#### 🔒 Lock 3: The Prime-Plus Sequence
+The final lock requires a code. The sequence is almost familiar, but the Sentry has added a "glitch" to every number.
+Look at the pattern: **3, 4, 6, 8, 12, 14, ...**
+
+**THE TASK:** What is the next number in the sequence?
+
+**ANSWER:** 18 (The pattern is Prime Numbers + 1; the next prime is 17, so 17 + 1 = 18)
+
+---
+
 ## 🦖 THE JUNIOR EXPLORER'S EXPEDITION [Ages 5-7] 🦖
 
 ### 1. 🦕 The Great Dino-Discovery Adventure
