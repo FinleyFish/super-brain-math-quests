@@ -288,7 +288,7 @@ You need to buy a Warp-Core from a grumpy alien. It costs **$32.50**, but becaus
 
 **ANSWER:** Save $6.50, Final Price $26.00
 
-#### 📏 Code 4: The Perimeter Shield
+#### 📏 Code 4: the Perimeter Shield
 To protect the city, you must deploy a rectangular energy shield. The area is **12 metres by 7 metres**. 
 
 **THE TASK:** How many metres of energy-plasma do you need to wrap all the way around the edge (the perimeter)?
@@ -387,5 +387,32 @@ There are **12 Pterodactyls** wanting to land in **3 big trees**. If they split 
 **ANSWER:** 7 (10 + 2 - 5)
 
 ---
+
+### 8. 🍕 The Fraction Frontier (Year 4 Stretch)
+**The Vibe:** Culinary / Logic
+**The Plot:** You are a Master Chef in training! To earn your Golden Spatula, you must solve these fraction puzzles before the timer runs out!
+
+#### 🍰 Challenge 1: The Pizza Puzzle
+You have a giant pizza. You eat 1/3 of it for lunch and 1/4 of it for dinner.
+**THE TASK:** What fraction of the pizza is left for tomorrow?
+**ANSWER:** 5/12 (1 - 7/12)
+
+#### 🖍️ Challenge 2: The Secret Ratio
+In a box of 24 markers, 1/3 are red, 1/6 are blue, and the rest are green.
+**THE TASK:** How many markers are green? (Express as number and fraction).
+**ANSWER:** 12 markers (1/2 of the box)
+
+#### 🍫 Challenge 3: The Fraction Flip
+Which is larger: 5/8 of a chocolate bar or 7/12 of the same chocolate bar?
+**THE TASK:** Show your thinking and pick the winner!
+**ANSWER:** 5/8 is larger (15/24 > 14/24)
+
+#### ⚡ Challenge 4: The Super Stretch
+If you add 1/2 and 1/4, then subtract 1/8, what is the final result?
+**THE TASK:** Find the final fraction!
+**ANSWER:** 5/8 (6/8 - 1/8)
+
+---
+
 **END OF ARCHIVE**
 *Compiled by Finley & Mr. Numbers | Galactic Edition 2026*
