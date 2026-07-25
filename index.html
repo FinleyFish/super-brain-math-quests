@@ -19,6 +19,7 @@
             --master-primary: #f472b6;
             --master-bg: #500724;
             --task-color: #00f2ff;
+            --sidebar-width: 320px;
         }
         body {
             background-color: var(--bg-color);
@@ -30,10 +31,48 @@
             display: flex;
             justify-content: center;
         }
-        #page-container {
-            max-width: 1000px;
-            width: 95%;
+        #page-wrapper {
+            display: flex;
+            max-width: 1400px;
+            width: 98%;
             margin: 40px auto;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        #sidebar {
+            width: var(--sidebar-width);
+            position: sticky;
+            top: 20px;
+            height: calc(100vh - 80px);
+            background: var(--card-bg);
+            border: 3px solid var(--border-color);
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        #sidebar-header {
+            padding: 20px;
+            background: linear-gradient(to bottom, var(--accent-color), var(--card-bg));
+            text-align: center;
+            border-bottom: 3px solid var(--border-color);
+        }
+        #sidebar-header h2 {
+            font-family: 'Luckiest Guy', cursive;
+            margin: 0;
+            color: var(--highlight-color);
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 0px #000;
+        }
+        #sidebar-nav {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        #main-container {
+            flex: 1;
+            min-width: 0;
         }
         header {
             text-align: center;
@@ -298,31 +337,36 @@
     </style>
 </head>
 <body>
-    <div id="page-container">
-        <header>
-            <h1>🌟 SUPER-BRAIN ARCHIVES 🌟</h1>
-            <div class="subtitle">Epic Math Quests for Brave Minds</div>
-        </header>
-        <div class="tab-nav">
-            <div id="btn-junior" class="tab-btn" onclick="switchTab('junior')">🦖 Junior Explorer [5-7]</div>
-            <div id="btn-master" class="tab-btn" onclick="switchTab('master')">👑 Master Navigator [8-11]</div>
-            <div id="btn-daily" class="tab-btn" onclick="switchTab('daily')">📅 Daily Challenges</div>
-        </div>
-        <div id="tab-junior" class="tab-content">
-            <div class="quest-menu" id="menu-junior"></div>
-            <div class="quest-grid" id="grid-junior"></div>
-        </div>
-        <div id="tab-master" class="tab-content">
-            <div class="quest-menu" id="menu-master"></div>
-            <div class="quest-grid" id="grid-master"></div>
-        </div>
-        <div id="tab-daily" class="tab-content">
-            <div class="quest-menu" id="menu-daily"></div>
-            <div class="quest-grid" id="grid-daily"></div>
-        </div>
-        <div class="footer">Compiled by Finley & Mr. Numbers | Galactic Edition 2026 | v2.4.2 (Cached Version Check)</div>
-    </div>
+    <div id="page-wrapper">
+        <aside id="sidebar">
+            <div id="sidebar-header">
+                <h2>🚀 NAVIGATOR</h2>
+            </div>
+            <div id="sidebar-nav"></div>
+        </aside>
 
+        <div id="main-container">
+            <header>
+                <h1>🌟 SUPER-BRAIN ARCHIVES 🌟</h1>
+                <div class="subtitle">Epic Math Quests for Brave Minds</div>
+            </header>
+            <div class="tab-nav">
+                <div id="btn-junior" class="tab-btn" onclick="switchTab('junior')">🦖 Junior Explorer [5-7]</div>
+                <div id="btn-master" class="tab-btn" onclick="switchTab('master')">👑 Master Navigator [8-11]</div>
+                <div id="btn-daily" class="tab-btn" onclick="switchTab('daily')">📅 Daily Challenges</div>
+            </div>
+            <div id="tab-junior" class="tab-content">
+                <div class="quest-grid" id="grid-junior"></div>
+            </div>
+            <div id="tab-master" class="tab-content">
+                <div class="quest-grid" id="grid-master"></div>
+            </div>
+            <div id="tab-daily" class="tab-content">
+                <div class="quest-grid" id="grid-daily"></div>
+            </div>
+            <div class="footer">Compiled by Finley & Mr. Numbers | Galactic Edition 2026 | v2.4.2 (Cached Version Check)</div>
+        </div>
+    </div>
     <script>
         // --- IMAGE CONFIGURATION ---
         const IMAGE_BASE_URL = "https://raw.githubusercontent.com/FinleyFish/super-brain-math-quests/main/assets/images/";
@@ -354,16 +398,14 @@
 
                 const masterData = renderQuests(masterSection, 'master');
                 document.getElementById('grid-master').innerHTML = masterData.html;
-                document.getElementById('menu-master').innerHTML = renderMenu(masterData.links, 'master');
 
                 const juniorData = renderQuests(juniorSection, 'junior');
                 document.getElementById('grid-junior').innerHTML = juniorData.html;
-                document.getElementById('menu-junior').innerHTML = renderMenu(juniorData.links, 'junior');
 
                 const dailyData = renderQuests(dailySection, 'daily');
                 document.getElementById('grid-daily').innerHTML = dailyData.html;
-                document.getElementById('menu-daily').innerHTML = renderMenu(dailyData.links, 'daily');
 
+                populateSidebar(juniorData.links, masterData.links, dailyData.links);
                 switchTab('master');
             } catch (e) {
                 console.error(e);
@@ -371,10 +413,81 @@
             }
         }
 
+        function populateSidebar(juniorLinks, masterLinks, dailyLinks) {
+            const nav = document.getElementById('sidebar-nav');
+            nav.innerHTML = '';
+
+            // Junior Section
+            const jSection = createNavSection('🦖 Junior Explorer');
+            juniorLinks.forEach(l => jSection.appendChild(createNavLink(l, 'junior')));
+            nav.appendChild(jSection);
+
+            // Master Section
+            const mSection = createNavSection('👑 Master Navigator');
+            masterLinks.forEach(l => mSection.appendChild(createNavLink(l, 'master')));
+            nav.appendChild(mSection);
+
+            // Daily Challenges (Weekly Grouping)
+            const dSection = createNavSection('📅 Daily Challenges');
+            const weeks = groupDailyByWeek(dailyLinks);
+            weeks.forEach(week => {
+                const weekHeader = document.createElement('div');
+                weekHeader.style.cssText = 'font-size: 0.8rem; color: #aaa; margin: 15px 0 5px 0; text-transform: uppercase; font-weight: bold; border-bottom: 1px solid #333;';
+                weekHeader.innerText = week.name;
+                dSection.appendChild(weekHeader);
+
+                week.links.forEach(l => dSection.appendChild(createNavLink(l, 'daily')));
+            });
+            nav.appendChild(dSection);
+        }
+
+        function createNavSection(title) {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+            const h3 = document.createElement('h3');
+            h3.innerText = title;
+            h3.style.cssText = 'font-size: 1rem; color: var(--highlight-color); margin-bottom: 10px; font-family: "Space Grotesk";';
+            div.appendChild(h3);
+            return div;
+        }
+
+        function createNavLink(link, type) {
+            const a = document.createElement('a');
+            a.href = `#${link.id}`;
+            a.className = `menu-link ${type}`;
+            a.style.cssText = 'display: block; margin-bottom: 5px; width: 100%; box-sizing: border-box;';
+            a.innerHTML = `<span style="margin-right:8px">🚀</span> ${link.title}`;
+            a.onclick = (e) => {
+                e.preventDefault();
+                switchTab(type);
+                document.getElementById(link.id).scrollIntoView({ behavior: 'smooth' });
+            };
+            return a;
+        }
+
+        function groupDailyByWeek(links) {
+            const weeks = [];
+            if (links.length === 0) return weeks;
+
+            let currentWeek = { name: '', links: [] };
+            let count = 0;
+
+            links.forEach((link, idx) => {
+                if (count % 7 === 0) {
+                    if (currentWeek.links.length > 0) weeks.push(currentWeek);
+                    const weekNum = Math.floor(idx / 7) + 1;
+                    currentWeek = { name: `Week ${weekNum}`, links: [] };
+                }
+                currentWeek.links.push(link);
+                count++;
+            });
+            weeks.push(currentWeek);
+            return weeks;
+        }
+
         function renderMenu(links, type) {
-            return links.map(link => 
-                `<a href="#${link.id}" class="menu-link ${type}"><span>🚀</span> ${link.title}</a>`
-            ).join('');
+            // This is now handled by populateSidebar, keeping for compatibility if needed
+            return ''; 
         }
 
         function renderQuests(sectionText, type) {
@@ -414,9 +527,9 @@
                 bodyRaw = bodyRaw.replace(/^---$/gm, '<div class="quest-divider"></div>');
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                // --- HANDLE ANSWERS ---
-                const aRegex = /<p>(.*?)<strong\s*[^>]*>(ANSWER:)\s*<\/strong>(.*?)<\/p>/gi;
-                bodyHtml = bodyHtml.replace(aRegex, (match, leading, label, content) => {
+                // --- HANDLE ANSWERS & SOLUTIONS ---
+                const aRegex = /<(p|div)>(.*?)<strong\s*[^>]*>(ANSWER:|Solution:)\s*<\/strong>(.*?)<\/p>/gi;
+                bodyHtml = bodyHtml.replace(aRegex, (match, tag, leading, label, content) => {
                     const prefix = leading.trim() ? `<p>${leading}</p>` : '';
                     return `${prefix}<div class="answer-wrapper">
                         <button class="answer-btn" onclick="toggleAnswer(this)">🔍 Reveal the Secret Answer</button>
