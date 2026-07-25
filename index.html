@@ -306,6 +306,7 @@
         <div class="tab-nav">
             <div id="btn-junior" class="tab-btn" onclick="switchTab('junior')">🦖 Junior Explorer [5-7]</div>
             <div id="btn-master" class="tab-btn" onclick="switchTab('master')">👑 Master Navigator [8-11]</div>
+            <div id="btn-daily" class="tab-btn" onclick="switchTab('daily')">📅 Daily Challenges</div>
         </div>
         <div id="tab-junior" class="tab-content">
             <div class="quest-menu" id="menu-junior"></div>
@@ -314,6 +315,10 @@
         <div id="tab-master" class="tab-content">
             <div class="quest-menu" id="menu-master"></div>
             <div class="quest-grid" id="grid-master"></div>
+        </div>
+        <div id="tab-daily" class="tab-content">
+            <div class="quest-menu" id="menu-daily"></div>
+            <div class="quest-grid" id="grid-daily"></div>
         </div>
         <div class="footer">Compiled by Finley & Mr. Numbers | Galactic Edition 2026 | v2.4.2 (Cached Version Check)</div>
     </div>
@@ -339,11 +344,13 @@
                 if (!response.ok) throw new Error('Archive file not found');
                 const text = await response.text();
                 
-                const splitIdx = text.indexOf('## 🦖');
-                if (splitIdx === -1) throw new Error('Could not find Junior section in archive');
+                const juniorIdx = text.indexOf('## 🦖');
+                const dailyIdx = text.indexOf('## 📅');
+                if (juniorIdx === -1 || dailyIdx === -1) throw new Error('Could not find sections in archive');
                 
-                const masterSection = text.substring(0, splitIdx);
-                const juniorSection = text.substring(splitIdx);
+                const masterSection = text.substring(0, juniorIdx);
+                const juniorSection = text.substring(juniorIdx, dailyIdx);
+                const dailySection = text.substring(dailyIdx);
 
                 const masterData = renderQuests(masterSection, 'master');
                 document.getElementById('grid-master').innerHTML = masterData.html;
@@ -352,6 +359,10 @@
                 const juniorData = renderQuests(juniorSection, 'junior');
                 document.getElementById('grid-junior').innerHTML = juniorData.html;
                 document.getElementById('menu-junior').innerHTML = renderMenu(juniorData.links, 'junior');
+
+                const dailyData = renderQuests(dailySection, 'daily');
+                document.getElementById('grid-daily').innerHTML = dailyData.html;
+                document.getElementById('menu-daily').innerHTML = renderMenu(dailyData.links, 'daily');
 
                 switchTab('master');
             } catch (e) {
@@ -439,15 +450,22 @@
         function switchTab(type) {
             document.getElementById('tab-junior').classList.remove('active');
             document.getElementById('tab-master').classList.remove('active');
+            document.getElementById('tab-daily').classList.remove('active');
             document.getElementById('btn-junior').classList.remove('active-junior');
             document.getElementById('btn-master').classList.remove('active-master');
+            document.getElementById('btn-daily').classList.remove('active-junior'); // Using a generic style for daily or could add active-daily
 
             if (type === 'junior') {
                 document.getElementById('tab-junior').classList.add('active');
                 document.getElementById('btn-junior').classList.add('active-junior');
-            } else {
+            } else if (type === 'master') {
                 document.getElementById('tab-master').classList.add('active');
                 document.getElementById('btn-master').classList.add('active-master');
+            } else if (type === 'daily') {
+                document.getElementById('tab-daily').classList.add('active');
+                document.getElementById('btn-daily').style.backgroundColor = 'var(--accent-color)';
+                document.getElementById('btn-daily').style.borderColor = 'var(--highlight-color)';
+                document.getElementById('btn-daily').style.color = 'white';
             }
         }
 
