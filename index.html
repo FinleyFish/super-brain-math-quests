@@ -332,7 +332,7 @@
         #sidebar.hidden {
             display: none;
         }
-        .sidebar-toggle {
+        #sidebar-toggle {
             position: fixed;
             bottom: 30px;
             left: 30px;
@@ -356,6 +356,44 @@
             background: var(--highlight-color);
             color: #5a5a7a;
         }
+
+        @media (max-width: 768px) {
+            #page-wrapper {
+                flex-direction: column;
+                margin: 20px auto;
+                gap: 20px;
+            }
+            #sidebar {
+                width: 100%;
+                position: relative;
+                top: 0;
+                height: auto;
+                max-height: none;
+            }
+            h1 {
+                font-size: 2.5rem !important;
+            }
+            .tab-nav {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .tab-btn {
+                padding: 10px 20px;
+                font-size: 1rem;
+                flex: 1 1 auto;
+                text-align: center;
+            }
+            .quest-img {
+                height: 250px !important;
+            }
+            #sidebar-toggle {
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: fit-content;
+            }
+        }
+
     </style>
 </head>
 <body>

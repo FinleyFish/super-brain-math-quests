@@ -423,7 +423,7 @@ If you add 1/2 and 1/4, then subtract 1/8, what is the final result?
 **Problem:**
 Leo bought a book for £6.45 and a pen for £2.80. He paid with a £10 note. How much change should he receive?
 
-**Solution:**
+**Solution:****
 Step 1: Calculate total cost: 6.45 + 2.80 = 9.25.
 Step 2: Subtract from the payment: 10.00 - 9.25 = 0.75.
 Answer: Leo should receive £0.75 in change.
@@ -435,7 +435,7 @@ Answer: Leo should receive £0.75 in change.
 **Problem:**
 Sarah has 4 bags of marbles, and each bag contains 15 marbles. She gives 12 marbles to her brother and then loses 5 more. How many marbles does she have left?
 
-**Solution:**
+**Solution:****
 Step 1: Calculate total marbles: 4 * 15 = 60.
 Step 2: Subtract marbles given to brother: 60 - 12 = 48.
 Step 3: Subtract lost marbles: 48 - 5 = 43.
@@ -448,7 +448,7 @@ Answer: Sarah has 43 marbles left.
 **Problem:**
 A movie is 120 minutes long. If Emelia has watched 2/3 of the movie, how many minutes has she watched, and how many minutes are remaining?
 
-**Solution:**
+**Solution:****
 Step 1: Find 1/3 of 120 by dividing 120 by 3 = 40.
 Step 2: Find 2/3 by multiplying 40 by 2 = 80.
 Step 3: Calculate remaining time: 120 - 80 = 40.
@@ -615,7 +615,7 @@ Toan has 48 books. He wants to split them equally among 3 friends. How many does
 ---
 ### 🎓 Daily Challenge
 
-**Solution:**
+**Solution:****
 48 ÷ 3 = 16 with a remainder of 0
 ---
 ### 🎓 Daily Challenge
@@ -625,7 +625,7 @@ What is 330 ÷ 10?
 ---
 ### 🎓 Daily Challenge
 
-**Solution:**
+**Solution:****
 330 / 10 = 33
 ---
 ### 🎓 Daily Challenge
@@ -635,7 +635,7 @@ A rectangle has a width of 13cm and a height of 7cm. What is its area?
 ---
 ### 🎓 Daily Challenge
 
-**Solution:**
+**Solution:****
 Area = width * height
 13 * 7 = 91 sq cm
 ---
@@ -644,7 +644,7 @@ Area = width * height
 **Problem:**
 A bakery sells 24 boxes of cupcakes every day. Each box contains 12 cupcakes. How many cupcakes does the bakery sell in one day?
 
-**Solution:**
+**Solution:****
 Step 1: Identify the number of boxes (24) and the number of cupcakes per box (12).
 Step 2: Multiply 24 by 12.
 - 24 * 10 = 240
@@ -657,7 +657,7 @@ Answer: The bakery sells 288 cupcakes a day.
 **Problem:**
 There are 147 stickers to be shared equally among 4 friends. How many stickers does each friend get, and how many are left over?
 
-**Solution:**
+**Solution:****
 Step 1: Divide 147 by 4.
 - 100 / 4 = 25
 - 40 / 4 = 10
@@ -671,7 +671,7 @@ Answer: Each friend gets 36 stickers, and there are 3 left over.
 **Problem:**
 Emelia has a chocolate bar. She eats 2/8 of it in the morning and 3/8 of it in the afternoon. What fraction of the chocolate bar has she eaten in total, and how much is left?
 
-**Solution:**
+**Solution:****
 Step 1: Add the fractions eaten.
 - 2/8 + 3/8 = 5/8
 Step 2: Subtract the amount eaten from the whole (8/8).
@@ -683,7 +683,7 @@ Answer: She has eaten 5/8 of the bar, and 3/8 is left.
 **Problem:**
 A rectangular garden is 8 meters long and 5 meters wide. What is the perimeter of the garden, and what is its area?
 
-**Solution:**
+**Solution:****
 Step 1: Calculate Perimeter (sum of all sides).
 - Perimeter = 2 * (length + width)
 - Perimeter = 2 * (8 + 5) = 2 * 13 = 26 meters.
@@ -697,7 +697,7 @@ Answer: Perimeter is 26m, Area is 40 sq m.
 **Problem:**
 Leo buys a toy car for £4.50 and a pack of stickers for £2.75. If he pays with a £10 note, how much change should he receive?
 
-**Solution:**
+**Solution:****
 Step 1: Calculate the total cost.
 - 4.50 + 2.75 = 7.25
 Step 2: Subtract the total from £10.
@@ -709,7 +709,7 @@ Answer: Leo should receive £2.75 in change.
 **Problem:**
 Sarah has 5 packs of pencils, and each pack has 8 pencils. She gives 12 pencils to her classmates. How many pencils does she have left?
 
-**Solution:**
+**Solution:****
 Step 1: Find the total number of pencils Sarah started with.
 - 5 packs * 8 pencils = 40 pencils.
 Step 2: Subtract the pencils given away.
@@ -721,7 +721,7 @@ Answer: Sarah has 28 pencils left.
 **Problem:**
 There are 40 students in a class. 3/4 of the students prefer football over basketball. How many students prefer football?
 
-**Solution:**
+**Solution:****
 Step 1: Find 1/4 of the total number of students.
 - 40 / 4 = 10
 Step 2: Multiply by 3 to find 3/4.
@@ -733,7 +733,7 @@ Answer: 30 students prefer football.
 **Problem:**
 A baker makes 24 trays of cupcakes, and each tray has 6 cupcakes. How many cupcakes did the baker make in total?
 
-**Solution:**
+**Solution:****
 Step 1: Identify the numbers (24 trays, 6 cupcakes per tray).
 Step 2: Multiply 24 by 6.
 Calculation: 20 * 6 = 120; 4 * 6 = 24; 120 + 24 = 144.
@@ -744,7 +744,7 @@ Answer: The baker made 144 cupcakes.
 **Problem:**
 Sarah has 144 stickers and wants to share them equally among 6 of her friends. How many stickers will each friend receive?
 
-**Solution:**
+**Solution:****
 Step 1: Identify the total (144 stickers) and the number of groups (6).
 Step 2: Divide 144 by 6.
 Calculation: 120 / 6 = 20; 24 / 6 = 4; 20 + 4 = 24.
@@ -755,7 +755,7 @@ Answer: Each friend will receive 24 stickers.
 **Problem:**
 Tom eats 2/8 of a pizza, and Jerry eats 3/8 of the same pizza. What fraction of the pizza have they eaten together? What fraction is left?
 
-**Solution:**
+**Solution:****
 Step 1: Add the fractions eaten (2/8 + 3/8).
 Calculation: (2+3) / 8 = 5/8.
 Step 2: Subtract from the whole (8/8 - 5/8).
@@ -767,7 +767,7 @@ Answer: They ate 5/8 of the pizza together, and 3/8 is left.
 **Problem:**
 A blue ribbon is 4.5 metres long. If you cut off a piece that is 1.2 metres long to make a bow, how much ribbon is remaining?
 
-**Solution:**
+**Solution:****
 Step 1: Identify the total length (4.5m) and the amount removed (1.2m).
 Step 2: Subtract 1.2 from 4.5.
 Calculation: 4.5 - 1.0 = 3.5; 3.5 - 0.2 = 3.3.
@@ -778,7 +778,7 @@ Answer: There are 3.3 metres of ribbon remaining.
 **Problem:**
 A rectangular garden is 8 metres long and 5 metres wide. What is the perimeter of the garden, and what is its total area?
 
-**Solution:**
+**Solution:****
 Step 1: Calculate Perimeter (sum of all sides).
 Calculation: (8 + 5) * 2 = 13 * 2 = 26 metres.
 Step 2: Calculate Area (length times width).
@@ -790,7 +790,7 @@ Answer: The perimeter is 26m and the area is 40 sq m.
 **Problem:**
 Leo buys 3 notebooks for £1.20 each and a fancy pen for 80p (£0.80). He pays with a £5 note. How much change should he receive?
 
-**Solution:**
+**Solution:****
 Step 1: Calculate cost of notebooks (3 * £1.20 = £3.60).
 Step 2: Add the cost of the pen (£3.60 + £0.80 = £4.40).
 Step 3: Subtract total from the payment (£5.00 - £4.40 = £0.60).
@@ -801,7 +801,7 @@ Answer: Leo should receive £0.60 (or 60p) in change.
 **Problem:**
 There are 48 students in the school choir. 1/4 of them are in Year 3, 1/2 of them are in Year 4, and the rest are in Year 5. How many students in the choir are in Year 5?
 
-**Solution:**
+**Solution:****
 Step 1: Find Year 3 students (1/4 of 48).
 Calculation: 48 / 4 = 12.
 Step 2: Find Year 4 students (1/2 of 48).
@@ -815,7 +815,7 @@ Answer: There are 12 students in Year 5.
 **Problem:**
 A bakery sells boxes of 12 cupcakes. If they sell 45 boxes in one day, how many cupcakes did they sell in total?
 
-**Solution:**
+**Solution:****
 1. Identify the numbers: 45 boxes * 12 cupcakes per box.
 2. Calculation: 40 * 12 = 480; 5 * 12 = 60.
 3. Total: 480 + 60 = 540.
@@ -826,7 +826,7 @@ Answer: 540 cupcakes.
 **Problem:**
 Farmer Joe has 137 apples. He wants to put them into bags of 6. How many full bags can he make, and how many apples will be left over?
 
-**Solution:**
+**Solution:****
 1. Division: 137 ÷ 6.
 2. 6 * 20 = 120; 137 - 120 = 17.
 3. 6 * 2 = 12; 17 - 12 = 5.
@@ -838,7 +838,7 @@ Answer: 22 full bags and 5 apples left over.
 **Problem:**
 Sarah has a chocolate bar. She eats 1/4 of it in the morning and 3/8 of it in the afternoon. What fraction of the chocolate bar is left?
 
-**Solution:**
+**Solution:****
 1. Find a common denominator for 1/4 and 3/8. The common denominator is 8.
 2. Convert 1/4 to 8ths: 1/4 = 2/8.
 3. Total eaten: 2/8 + 3/8 = 5/8.
@@ -850,7 +850,7 @@ Answer: 3/8 of the chocolate bar is left.
 **Problem:**
 A rectangular garden has a length of 12 meters and a width of 7 meters. What is the perimeter of the garden, and what is its area?
 
-**Solution:**
+**Solution:****
 1. Perimeter = 2 * (length + width) = 2 * (12 + 7) = 2 * 19 = 38 meters.
 2. Area = length * width = 12 * 7 = 84 square meters.
 Answer: Perimeter is 38m, Area is 84 sq m.
@@ -860,7 +860,7 @@ Answer: Perimeter is 38m, Area is 84 sq m.
 **Problem:**
 Leo spent £4.50 on a toy car and £2.75 on some stickers. He paid with a £10 note. How much change should he receive?
 
-**Solution:**
+**Solution:****
 1. Total spend: 4.50 + 2.75 = 7.25.
 2. Change: 10.00 - 7.25.
 3. Calculation: 10.00 - 7.00 = 3.00; 3.00 - 0.25 = 2.75.
@@ -871,7 +871,7 @@ Answer: Leo receives £2.75 change.
 **Problem:**
 There are 4 buses. Each bus has 24 seats. If 3 buses are completely full and the 4th bus has only 10 people on it, how many people are there in total across all buses?
 
-**Solution:**
+**Solution:****
 1. People in full buses: 3 * 24 = 72.
 2. Add the people in the last bus: 72 + 10 = 82.
 Answer: There are 82 people in total.
@@ -881,7 +881,7 @@ Answer: There are 82 people in total.
 **Problem:**
 A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does the movie end?
 
-**Solution:**
+**Solution:****
 1. Start time: 2:15.
 2. Add 1 hour: 3:15.
 3. Add 45 minutes: 3:15 + 45 min = 4:00 PM (since 15+45=60).
