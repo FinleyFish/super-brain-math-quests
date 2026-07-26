@@ -601,7 +601,7 @@
                 let bodyHtml = marked.parse(bodyRaw);
                 
                 // --- HANDLE ANSWERS & SOLUTIONS (Ultra-Robust Mode) ---
-                const markerRegex = /<(strong|b)>\s*(ANSWER|Solution)\s*<\/(strong|b)>(?:\s*:)?/gi;
+                const markerRegex = /<(strong|b)>\s*(ANSWER|Solution):?\s*<\/(strong|b)>(?:\s*:)?/gi;
                 let occurrences = [];
                 let match;
                 while ((match = markerRegex.exec(bodyHtml)) !== null) {
