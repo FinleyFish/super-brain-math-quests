@@ -416,7 +416,6 @@ If you add 1/2 and 1/4, then subtract 1/8, what is the final result?
 
 
 ## 📅 DAILY CHALLENGES 📅
-### 🎓 Challenge: 2026-06-26
 ### 🎓 Math Challenge for 2026-06-26
 
 **Topic:** Decimals
@@ -429,7 +428,6 @@ Step 1: Calculate total cost: 6.45 + 2.80 = 9.25.
 Step 2: Subtract from the payment: 10.00 - 9.25 = 0.75.
 Answer: Leo should receive £0.75 in change.
 ---
-### 🎓 Challenge: 2026-06-27
 ### 🎓 Math Challenge for 2026-06-27
 
 **Topic:** Multi-step Word Problem
@@ -443,7 +441,6 @@ Step 2: Subtract marbles given to brother: 60 - 12 = 48.
 Step 3: Subtract lost marbles: 48 - 5 = 43.
 Answer: Sarah has 43 marbles left.
 ---
-### 🎓 Challenge: 2026-06-28
 ### 🎓 Math Challenge for 2026-06-28
 
 **Topic:** Fractions of Quantities
@@ -457,7 +454,6 @@ Step 2: Find 2/3 by multiplying 40 by 2 = 80.
 Step 3: Calculate remaining time: 120 - 80 = 40.
 Answer: She has watched 80 minutes and 40 minutes are remaining.
 ---
-### 🎓 Challenge: 2026-06-29
 ### 🎓 Math Challenge for 2026-06-29
 
 **Topic**: Multi-digit multiplication
@@ -471,7 +467,6 @@ A school library bought 14 boxes of books. Each box contains 25 books. How many 
 3. Calculation: (10 * 25) + (4 * 25) = 250 + 100 = 350.
 Answer: The library bought 350 books.
 ---
-### 🎓 Challenge: 2026-06-30
 ### 🎓 Math Challenge for 2026-06-30
 
 **Topic**: Simple fractions
@@ -487,7 +482,6 @@ Sarah has a chocolate bar with 12 equal squares. She gives 1/4 of the bar to her
 5. Squares remaining: 12 - 7 = 5 squares.
 Answer: Sarah has 5 squares left.
 ---
-### 🎓 Challenge: 2026-07-01
 ### 🎓 Math Challenge for 2026-07-01
 
 **Topic**: Perimeter and Area
@@ -501,7 +495,6 @@ A rectangular garden is 8 meters long and 5 meters wide. What is the area of the
 3. Perimeter = 2 * (length + width) = 2 * (8 + 5) = 2 * 13 = 26 meters.
 Answer: Area is 40m², Perimeter is 26m.
 ---
-### 🎓 Challenge: 2026-07-02
 ### 🎓 Math Challenge for 2026-07-02
 
 **Topic**: Multi-step word problem / Division
@@ -515,7 +508,6 @@ Mr. Thompson has 156 stickers that he wants to share equally between 6 students.
 3. One student gives half away: 26 / 2 = 13 stickers.
 Answer: The friend receives 13 stickers.
 ---
-### 🎓 Challenge: 2026-07-03
 ### 🎓 Math Challenge for 2026-07-03
 
 **Topic**: Decimals
@@ -529,7 +521,6 @@ Leo bought a toy for £4.75 and a book for £3.50. He paid with a £10 note. How
 3. Change: 10.00 - 8.25 = £1.75.
 Answer: Leo should receive £1.75 in change.
 ---
-### 🎓 Challenge: 2026-07-04
 ### 🎓 Math Challenge for 2026-07-04
 
 **Topic**: Multi-digit division
@@ -543,7 +534,6 @@ A bakery makes 432 cupcakes and packs them into boxes of 12. How many full boxes
 3. Calculation: (12 * 30 = 360), (432 - 360 = 72), (12 * 6 = 72). So, 30 + 6 = 36.
 Answer: They can make 36 full boxes.
 ---
-### 🎓 Challenge: 2026-07-05
 ### 🎓 Math Challenge for 2026-07-05
 
 **Topic**: Fractions/Area
@@ -557,7 +547,6 @@ A piece of cardboard is 20cm by 10cm. If you cut it exactly in half along the le
 (Alternatively: New dimensions are 10cm by 10cm, so 10 * 10 = 100 sq cm).
 Answer: The area of each new piece is 100 sq cm.
 ---
-### 🎓 Challenge: 2026-07-06
 ### 🎓 Math Challenge for 2026-07-06
 
 **Topic**: Multi-digit Multiplication
@@ -574,7 +563,6 @@ A farmer has 14 rows of apple trees, and each row has 8 trees. How many apple tr
 4. Calculate: 80 + 32 = 112.
 Answer: 112 apple trees.
 ---
-### 🎓 Challenge: 2026-07-07
 ### 🎓 Math Challenge for 2026-07-07
 
 **Topic**: Perimeter and Area
@@ -589,7 +577,6 @@ Sarah has a rectangular garden that is 7 meters long and 5 meters wide. What is 
 2. Calculate Perimeter: 2 x (length + width) = 2 x (7m + 5m) = 2 x 12m = 24 meters.
 Answer: Area is 35 sq m, Perimeter is 24 m.
 ---
-### 🎓 Challenge: 2026-07-08
 ### 🎓 Math Challenge for 2026-07-08
 
 **Topic**: Simple Fractions
@@ -605,7 +592,6 @@ Emelia ate 1/4 of a pizza for lunch and then another 2/8 of the same pizza for a
 3. Simplify 2/4 to 1/2.
 Answer: Emelia ate 1/2 of the pizza.
 ---
-### 🎓 Challenge: 2026-07-09
 ### 🎓 Math Challenge for 2026-07-09
 
 **Topic**: Multi-digit Division
@@ -622,7 +608,6 @@ A school library has 156 books that need to be placed equally on 6 shelves. How 
 4. Calculate: 20 + 6 = 26.
 Answer: 26 books per shelf.
 ---
-### 🎓 Challenge: 2026-07-10
 ### 🎓 Math Challenge for 2026-07-10
 
 **Problem:**
@@ -632,7 +617,6 @@ Toan has 48 books. He wants to split them equally among 3 friends. How many does
 **Solution:**
 48 ÷ 3 = 16 with a remainder of 0
 ---
-### 🎓 Challenge: 2026-07-11
 ### 🎓 Math Challenge for 2026-07-11
 
 **Problem:**
@@ -642,7 +626,6 @@ What is 330 ÷ 10?
 **Solution:**
 330 / 10 = 33
 ---
-### 🎓 Challenge: 2026-07-12
 ### 🎓 Math Challenge for 2026-07-12
 
 **Problem:**
@@ -653,7 +636,6 @@ A rectangle has a width of 13cm and a height of 7cm. What is its area?
 Area = width * height
 13 * 7 = 91 sq cm
 ---
-### 🎓 Challenge: 2026-07-13
 ### 🎓 Math Challenge for 2026-07-13
 
 **Problem:**
@@ -667,7 +649,6 @@ Step 2: Multiply 24 by 12.
 - 240 + 48 = 288.
 Answer: The bakery sells 288 cupcakes a day.
 ---
-### 🎓 Challenge: 2026-07-14
 ### 🎓 Math Challenge for 2026-07-14
 
 **Problem:**
@@ -682,7 +663,6 @@ Step 2: Total stickers per friend: 25 + 10 + 1 = 36.
 Step 3: The remainder is 3.
 Answer: Each friend gets 36 stickers, and there are 3 left over.
 ---
-### 🎓 Challenge: 2026-07-15
 ### 🎓 Math Challenge for 2026-07-15
 
 **Problem:**
@@ -695,7 +675,6 @@ Step 2: Subtract the amount eaten from the whole (8/8).
 - 8/8 - 5/8 = 3/8
 Answer: She has eaten 5/8 of the bar, and 3/8 is left.
 ---
-### 🎓 Challenge: 2026-07-16
 ### 🎓 Math Challenge for 2026-07-16
 
 **Problem:**
@@ -710,7 +689,6 @@ Step 2: Calculate Area (length times width).
 - Area = 8 * 5 = 40 square meters.
 Answer: Perimeter is 26m, Area is 40 sq m.
 ---
-### 🎓 Challenge: 2026-07-17
 ### 🎓 Math Challenge for 2026-07-17
 
 **Problem:**
@@ -723,7 +701,6 @@ Step 2: Subtract the total from £10.
 - 10.00 - 7.25 = 2.75
 Answer: Leo should receive £2.75 in change.
 ---
-### 🎓 Challenge: 2026-07-18
 ### 🎓 Math Challenge for 2026-07-18
 
 **Problem:**
@@ -736,7 +713,6 @@ Step 2: Subtract the pencils given away.
 - 40 - 12 = 28
 Answer: Sarah has 28 pencils left.
 ---
-### 🎓 Challenge: 2026-07-19
 ### 🎓 Math Challenge for 2026-07-19
 
 **Problem:**
@@ -749,7 +725,6 @@ Step 2: Multiply by 3 to find 3/4.
 - 10 * 3 = 30
 Answer: 30 students prefer football.
 ---
-### 🎓 Challenge: 2026-07-20
 ### 🎓 Math Challenge for 2026-07-20
 
 **Problem:**
@@ -761,7 +736,6 @@ Step 2: Multiply 24 by 6.
 Calculation: 20 * 6 = 120; 4 * 6 = 24; 120 + 24 = 144.
 Answer: The baker made 144 cupcakes.
 ---
-### 🎓 Challenge: 2026-07-21
 ### 🎓 Math Challenge for 2026-07-21
 
 **Problem:**
@@ -773,7 +747,6 @@ Step 2: Divide 144 by 6.
 Calculation: 120 / 6 = 20; 24 / 6 = 4; 20 + 4 = 24.
 Answer: Each friend will receive 24 stickers.
 ---
-### 🎓 Challenge: 2026-07-22
 ### 🎓 Math Challenge for 2026-07-22
 
 **Problem:**
@@ -786,7 +759,6 @@ Step 2: Subtract from the whole (8/8 - 5/8).
 Calculation: (8-5) / 8 = 3/8.
 Answer: They ate 5/8 of the pizza together, and 3/8 is left.
 ---
-### 🎓 Challenge: 2026-07-23
 ### 🎓 Math Challenge for 2026-07-23
 
 **Problem:**
@@ -798,7 +770,6 @@ Step 2: Subtract 1.2 from 4.5.
 Calculation: 4.5 - 1.0 = 3.5; 3.5 - 0.2 = 3.3.
 Answer: There are 3.3 metres of ribbon remaining.
 ---
-### 🎓 Challenge: 2026-07-24
 ### 🎓 Math Challenge for 2026-07-24
 
 **Problem:**
@@ -811,7 +782,6 @@ Step 2: Calculate Area (length times width).
 Calculation: 8 * 5 = 40 square metres.
 Answer: The perimeter is 26m and the area is 40 sq m.
 ---
-### 🎓 Challenge: 2026-07-25
 ### 🎓 Math Challenge for 2026-07-25
 
 **Problem:**
@@ -823,7 +793,6 @@ Step 2: Add the cost of the pen (£3.60 + £0.80 = £4.40).
 Step 3: Subtract total from the payment (£5.00 - £4.40 = £0.60).
 Answer: Leo should receive £0.60 (or 60p) in change.
 ---
-### 🎓 Challenge: 2026-07-26
 ### 🎓 Math Challenge for 2026-07-26
 
 **Problem:**
@@ -838,7 +807,6 @@ Step 3: Subtract both from the total (48 - 12 - 24).
 Calculation: 48 - 36 = 12.
 Answer: There are 12 students in Year 5.
 ---
-### 🎓 Challenge: 2026-07-27
 ### 🎓 Math Challenge for 2026-07-27
 
 **Problem:**
@@ -850,7 +818,6 @@ A bakery sells boxes of 12 cupcakes. If they sell 45 boxes in one day, how many 
 3. Total: 480 + 60 = 540.
 Answer: 540 cupcakes.
 ---
-### 🎓 Challenge: 2026-07-28
 ### 🎓 Math Challenge for 2026-07-28
 
 **Problem:**
@@ -863,7 +830,6 @@ Farmer Joe has 137 apples. He wants to put them into bags of 6. How many full ba
 4. Total bags: 20 + 2 = 22. Remainder: 5.
 Answer: 22 full bags and 5 apples left over.
 ---
-### 🎓 Challenge: 2026-07-29
 ### 🎓 Math Challenge for 2026-07-29
 
 **Problem:**
@@ -876,7 +842,6 @@ Sarah has a chocolate bar. She eats 1/4 of it in the morning and 3/8 of it in th
 4. Subtract from the whole (8/8): 8/8 - 5/8 = 3/8.
 Answer: 3/8 of the chocolate bar is left.
 ---
-### 🎓 Challenge: 2026-07-30
 ### 🎓 Math Challenge for 2026-07-30
 
 **Problem:**
@@ -887,7 +852,6 @@ A rectangular garden has a length of 12 meters and a width of 7 meters. What is 
 2. Area = length * width = 12 * 7 = 84 square meters.
 Answer: Perimeter is 38m, Area is 84 sq m.
 ---
-### 🎓 Challenge: 2026-07-31
 ### 🎓 Math Challenge for 2026-07-31
 
 **Problem:**
@@ -899,7 +863,6 @@ Leo spent £4.50 on a toy car and £2.75 on some stickers. He paid with a £10 n
 3. Calculation: 10.00 - 7.00 = 3.00; 3.00 - 0.25 = 2.75.
 Answer: Leo receives £2.75 change.
 ---
-### 🎓 Challenge: 2026-08-01
 ### 🎓 Math Challenge for 2026-08-01
 
 **Problem:**
@@ -910,7 +873,6 @@ There are 4 buses. Each bus has 24 seats. If 3 buses are completely full and the
 2. Add the people in the last bus: 72 + 10 = 82.
 Answer: There are 82 people in total.
 ---
-### 🎓 Challenge: 2026-08-02
 ### 🎓 Math Challenge for 2026-08-02
 
 **Problem:**
