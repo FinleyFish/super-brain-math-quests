@@ -600,8 +600,8 @@
                 bodyRaw = bodyRaw.replace(/^---$/gm, '<div class="quest-divider"></div>');
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                // --- HANDLE ANSWERS & SOLUTIONS (Robust Regex Mode) ---
-                const markerRegex = /<(strong|b)>\s*(ANSWER|Solution):\s*<\/(strong|b)>/gi;
+                // --- HANDLE ANSWERS & SOLUTIONS (Ultra-Robust Mode) ---
+                const markerRegex = /<(strong|b)>\s*(ANSWER|Solution)\s*<\/(strong|b)>(?:\s*:)?/gi;
                 let occurrences = [];
                 let match;
                 while ((match = markerRegex.exec(bodyHtml)) !== null) {
