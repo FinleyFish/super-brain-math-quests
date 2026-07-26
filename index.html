@@ -8,17 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #0c0c1d;
-            --card-bg: #16163a;
-            --text-color: #e0e0ff;
-            --accent-color: #7b61ff;
-            --highlight-color: #ffcc00;
-            --border-color: #2d2d5f;
-            --junior-primary: #4ade80;
-            --junior-bg: #064e3b;
-            --master-primary: #f472b6;
-            --master-bg: #500724;
-            --task-color: #00f2ff;
+            --bg-color: #fdfcf0;
+            --card-bg: #ffffff;
+            --text-color: #5a5a7a;
+            --accent-color: #ffb7ce;
+            --highlight-color: #f9d342;
+            --border-color: #e2e8f0;
+            --junior-primary: #86efac;
+            --junior-bg: #dcfce7;
+            --master-primary: #f9a8d4;
+            --master-bg: #fdf2f8;
+            --task-color: #7dd3fc;
             --sidebar-width: 320px;
         }
         body {
@@ -44,26 +44,26 @@
             position: sticky;
             top: 20px;
             height: calc(100vh - 80px);
-            background: var(--card-bg);
+            background: #fdf2f8;
             border: 3px solid var(--border-color);
-            border-radius: 25px;
+            border-radius: 30px;
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
         }
         #sidebar-header {
             padding: 20px;
-            background: linear-gradient(to bottom, var(--accent-color), var(--card-bg));
+            background: linear-gradient(to bottom, var(--accent-color), #fdf2f8);
             text-align: center;
             border-bottom: 3px solid var(--border-color);
         }
         #sidebar-header h2 {
             font-family: 'Luckiest Guy', cursive;
             margin: 0;
-            color: var(--highlight-color);
+            color: #fff;
             font-size: 1.5rem;
-            text-shadow: 2px 2px 0px #000;
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
         }
         #sidebar-nav {
             flex-grow: 1;
@@ -81,14 +81,14 @@
         h1 {
             font-family: 'Luckiest Guy', cursive, system-ui;
             font-size: 4rem;
-            color: var(--highlight-color);
-            text-shadow: 5px 5px 0px #4b3d8a;
+            color: #ff9a8b;
+            text-shadow: 3px 3px 0px #fff;
             margin: 0;
         }
         .subtitle {
             font-family: 'Space Grotesk', sans-serif, system-ui;
             font-size: 1.3rem;
-            color: #aaa;
+            color: #888;
             margin-top: 10px;
         }
         .tab-nav {
@@ -105,23 +105,23 @@
             text-transform: uppercase;
             cursor: pointer;
             border: 3px solid var(--border-color);
-            border-radius: 15px;
-            background: var(--card-bg);
+            border-radius: 20px;
+            background: #fff;
             color: var(--text-color);
             transition: all 0.3s ease;
         }
         .tab-btn.active-junior {
             background: var(--junior-bg);
             border-color: var(--junior-primary);
-            color: white;
-            box-shadow: 0 0 20px rgba(74, 222, 128, 0.3);
+            color: #166534;
+            box-shadow: 0 4px 15px rgba(74, 222, 128, 0.2);
             transform: scale(1.05);
         }
         .tab-btn.active-master {
             background: var(--master-bg);
             border-color: var(--master-primary);
-            color: white;
-            box-shadow: 0 0 20px rgba(244, 114, 182, 0.3);
+            color: #9d174d;
+            box-shadow: 0 4px 15px rgba(244, 114, 182, 0.2);
             transform: scale(1.05);
         }
         .tab-content {
@@ -141,7 +141,6 @@
             gap: 30px;
             margin-top: 20px;
         }
-
         /* --- QUEST NAVIGATION MENU --- */
         .quest-menu {
             display: flex;
@@ -149,7 +148,7 @@
             gap: 10px;
             margin-bottom: 30px;
             padding: 20px;
-            background: rgba(255,255,255,0.05);
+            background: rgba(255,255,255,0.7);
             border-radius: 15px;
             border: 1px solid var(--border-color);
             justify-content: center;
@@ -161,9 +160,9 @@
             font-weight: 600;
             text-decoration: none;
             color: var(--text-color);
-            background: var(--card-bg);
+            background: #fff;
             border: 2px solid var(--border-color);
-            border-radius: 10px;
+            border-radius: 12px;
             transition: all 0.2s ease;
             cursor: pointer;
             display: flex;
@@ -173,19 +172,19 @@
         .menu-link:hover {
             transform: translateY(-2px);
             border-color: var(--highlight-color);
-            color: var(--highlight-color);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            color: #d97706;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
-        .menu-link.junior:hover { border-color: var(--junior-primary); color: var(--junior-primary); }
-        .menu-link.master:hover { border-color: var(--master-primary); color: var(--master-primary); }
-
+        .menu-link.junior:hover { border-color: var(--junior-primary); color: #16a34a; }
+        .menu-link.master:hover { border-color: var(--master-primary); color: #db2777; }
+        
         .quest-card {
-            background: var(--card-bg);
+            background: #fff;
             border: 3px solid var(--border-color);
-            border-radius: 25px;
+            border-radius: 30px;
             overflow: hidden;
             transition: transform 0.3s ease;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
             display: flex;
             flex-direction: column;
         }
@@ -198,24 +197,24 @@
             object-fit: cover;
             border-bottom: 3px solid var(--border-color);
             display: block;
-            background-color: #1a1a3a;
+            background-color: #f8fafc;
         }
         .quest-body { padding: 30px; flex-grow: 1; }
         .quest-title {
             font-family: 'Luckiest Guy', cursive, system-ui;
             font-size: 2.2rem;
-            color: var(--highlight-color);
+            color: #e11d48;
             margin: 0 0 15px 0;
             display: flex;
             align-items: center;
             gap: 15px;
             line-height: 1.1;
-            text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 0px #fff;
         }
         .vibe-tag {
             font-size: 0.8rem;
             background: var(--accent-color);
-            color: white;
+            color: #be185d;
             padding: 4px 12px;
             border-radius: 20px;
             text-transform: uppercase;
@@ -226,20 +225,18 @@
             color: var(--text-color);
         }
         .quest-text strong {
-            color: var(--highlight-color);
+            color: #d97706;
             font-weight: 700;
         }
-
         .quest-text h4 {
             font-family: 'Luckiest Guy', cursive, system-ui;
-            color: var(--highlight-color);
+            color: #e11d48;
             font-size: 1.5rem;
             margin: 25px 0 10px 0;
-            text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+            text-shadow: 1px 1px 0px #fff;
             letter-spacing: 1px;
             line-height: 1.2;
         }
-
         /* --- VISUAL SEPARATOR --- */
         .quest-divider {
             height: 2px;
@@ -249,27 +246,26 @@
             display: block;
         }
         .quest-divider::after {
-            content: '✦';
+            content: '✨';
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            background: var(--card-bg);
+            background: #fff;
             padding: 0 15px;
             color: var(--accent-color);
             font-size: 1.2rem;
         }
-
         /* --- THE ULTIMATE TASK FIX --- */
         .task-block {
             display: block;
             clear: both;
             margin: 20px 0;
             padding: 15px 20px;
-            background: rgba(0, 0, 0, 0.4);
-            border-left: 5px solid var(--task-color);
-            border-radius: 0 12px 12px 0;
-            box-shadow: inset 0 0 10px rgba(0, 242, 255, 0.1);
+            background: #f8fafc;
+            border-left: 6px solid var(--task-color);
+            border-radius: 0 15px 15px 0;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
             position: relative;
         }
         .answer-btn {
@@ -277,28 +273,28 @@
             width: fit-content;
             margin: 15px 0 0 0;
             padding: 8px 16px;
-            background: transparent;
+            background: #fff;
             border: 2px solid var(--task-color);
-            color: var(--task-color);
+            color: #0369a1;
             font-family: 'Space Grotesk', sans-serif;
             font-weight: 700;
             font-size: 0.9rem;
             cursor: pointer;
-            border-radius: 8px;
+            border-radius: 12px;
             transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
         }
         .answer-btn:hover {
             background: var(--task-color);
-            color: #000;
+            color: #fff;
         }
         .answer-content {
             display: none;
             margin-top: 12px;
             padding-top: 12px;
             border-top: 1px dashed var(--task-color);
-            color: var(--highlight-color);
+            color: #b45309;
             font-weight: 700;
             font-size: 1.1rem;
             animation: slideDown 0.3s ease forwards;
@@ -308,7 +304,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
         .task-block > strong {
-            color: var(--task-color) !important;
+            color: #0369a1 !important;
             display: block;
             font-family: 'Space Grotesk', sans-serif, system-ui;
             font-size: 1.1rem;
@@ -320,21 +316,20 @@
         .task-block-content {
             font-size: 1.1rem;
             line-height: 1.4;
-            color: #fff;
+            color: #475569;
         }
         .task-block-content strong {
-            color: var(--highlight-color);
+            color: #d97706;
             font-weight: 700;
             text-transform: none;
         }
-        
         .footer {
             text-align: center;
             margin-top: 50px;
-            color: #777;
+            color: #aaa;
             font-style: italic;
         }
-    </style>
+</style>
 </head>
 <body>
     <div id="page-wrapper">
