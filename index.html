@@ -600,23 +600,18 @@
                 bodyRaw = bodyRaw.replace(/^---$/gm, '<div class="quest-divider"></div>');
                 let bodyHtml = marked.parse(bodyRaw);
                 
-                // --- HANDLE ANSWERS & SOLUTIONS (Multi-Occurrence Fixed) ---
-                const markerTexts = ['<strong>ANSWER:</strong>', '<strong>Solution:</strong>'];
+                // --- HANDLE ANSWERS & SOLUTIONS (Robust Regex Mode) ---
+                const markerRegex = /<(strong|b)>\s*(ANSWER|Solution):\s*<\/(strong|b)>/gi;
                 let occurrences = [];
-                markerTexts.forEach(m => {
-                    let pos = bodyHtml.indexOf(m);
-                    while (pos !== -1) {
-                        occurrences.push({ pos, marker: m });
-                        pos = bodyHtml.indexOf(m, pos + 1);
-                    }
-                });
-                occurrences.sort((a, b) => a.pos - b.pos);
-
+                let match;
+                while ((match = markerRegex.exec(bodyHtml)) !== null) {
+                    occurrences.push({ pos: match.index, marker: match[0] });
+                }
+                
                 // Process from back to front to maintain index stability
                 for (let i = occurrences.length - 1; i >= 0; i--) {
-                    const { pos, marker } = occurrences[i];
+                    const { pos } = occurrences[i];
                     
-                    // The answer ends at the next marker or the next header (<h4>)
                     let endPos = bodyHtml.length;
                     if (i < occurrences.length - 1) {
                         endPos = Math.min(endPos, occurrences[i+1].pos);

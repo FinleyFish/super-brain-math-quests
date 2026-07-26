@@ -416,7 +416,9 @@ If you add 1/2 and 1/4, then subtract 1/8, what is the final result?
 
 
 ## 📅 DAILY CHALLENGES 📅
-### 🎓 Daily Challenge
+
+### 🎓 Day 1
+
 
 **Topic:** Decimals
 
@@ -428,7 +430,8 @@ Step 1: Calculate total cost: 6.45 + 2.80 = 9.25.
 Step 2: Subtract from the payment: 10.00 - 9.25 = 0.75.
 Answer: Leo should receive £0.75 in change.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 2
+
 
 **Topic:** Multi-step Word Problem
 
@@ -441,7 +444,8 @@ Step 2: Subtract marbles given to brother: 60 - 12 = 48.
 Step 3: Subtract lost marbles: 48 - 5 = 43.
 Answer: Sarah has 43 marbles left.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 3
+
 
 **Topic:** Fractions of Quantities
 
@@ -454,7 +458,8 @@ Step 2: Find 2/3 by multiplying 40 by 2 = 80.
 Step 3: Calculate remaining time: 120 - 80 = 40.
 Answer: She has watched 80 minutes and 40 minutes are remaining.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 4
+
 
 **Topic**: Multi-digit multiplication
 
@@ -467,7 +472,8 @@ A school library bought 14 boxes of books. Each box contains 25 books. How many 
 3. Calculation: (10 * 25) + (4 * 25) = 250 + 100 = 350.
 Answer: The library bought 350 books.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 5
+
 
 **Topic**: Simple fractions
 
@@ -482,7 +488,8 @@ Sarah has a chocolate bar with 12 equal squares. She gives 1/4 of the bar to her
 5. Squares remaining: 12 - 7 = 5 squares.
 Answer: Sarah has 5 squares left.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 6
+
 
 **Topic**: Perimeter and Area
 
@@ -495,7 +502,8 @@ A rectangular garden is 8 meters long and 5 meters wide. What is the area of the
 3. Perimeter = 2 * (length + width) = 2 * (8 + 5) = 2 * 13 = 26 meters.
 Answer: Area is 40m², Perimeter is 26m.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 7
+
 
 **Topic**: Multi-step word problem / Division
 
@@ -508,7 +516,8 @@ Mr. Thompson has 156 stickers that he wants to share equally between 6 students.
 3. One student gives half away: 26 / 2 = 13 stickers.
 Answer: The friend receives 13 stickers.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 8
+
 
 **Topic**: Decimals
 
@@ -521,7 +530,8 @@ Leo bought a toy for £4.75 and a book for £3.50. He paid with a £10 note. How
 3. Change: 10.00 - 8.25 = £1.75.
 Answer: Leo should receive £1.75 in change.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 9
+
 
 **Topic**: Multi-digit division
 
@@ -534,7 +544,8 @@ A bakery makes 432 cupcakes and packs them into boxes of 12. How many full boxes
 3. Calculation: (12 * 30 = 360), (432 - 360 = 72), (12 * 6 = 72). So, 30 + 6 = 36.
 Answer: They can make 36 full boxes.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 10
+
 
 **Topic**: Fractions/Area
 
@@ -547,14 +558,16 @@ A piece of cardboard is 20cm by 10cm. If you cut it exactly in half along the le
 (Alternatively: New dimensions are 10cm by 10cm, so 10 * 10 = 100 sq cm).
 Answer: The area of each new piece is 100 sq cm.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 11
+
 
 **Topic**: Multi-digit Multiplication
 
 **Problem**:
 A farmer has 14 rows of apple trees, and each row has 8 trees. How many apple trees does the farmer have in total?
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 12
+
 
 **Solution**:
 1. Identify the number of rows: 14
@@ -563,28 +576,32 @@ A farmer has 14 rows of apple trees, and each row has 8 trees. How many apple tr
 4. Calculate: 80 + 32 = 112.
 Answer: 112 apple trees.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 13
+
 
 **Topic**: Perimeter and Area
 
 **Problem**:
 Sarah has a rectangular garden that is 7 meters long and 5 meters wide. What is the area of her garden, and what is its perimeter?
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 14
+
 
 **Solution**:
 1. Calculate Area: length x width = 7m x 5m = 35 square meters.
 2. Calculate Perimeter: 2 x (length + width) = 2 x (7m + 5m) = 2 x 12m = 24 meters.
 Answer: Area is 35 sq m, Perimeter is 24 m.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 15
+
 
 **Topic**: Simple Fractions
 
 **Problem**:
 Emelia ate 1/4 of a pizza for lunch and then another 2/8 of the same pizza for a snack. How much of the pizza did she eat in total? (Simplify your answer if possible)
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 16
+
 
 **Solution**:
 1. Find a common denominator: 2/8 is the same as 1/4.
@@ -592,14 +609,16 @@ Emelia ate 1/4 of a pizza for lunch and then another 2/8 of the same pizza for a
 3. Simplify 2/4 to 1/2.
 Answer: Emelia ate 1/2 of the pizza.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 17
+
 
 **Topic**: Multi-digit Division
 
 **Problem**:
 A school library has 156 books that need to be placed equally on 6 shelves. How many books will go on each shelf?
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 18
+
 
 **Solution**:
 1. Total books: 156
@@ -608,38 +627,45 @@ A school library has 156 books that need to be placed equally on 6 shelves. How 
 4. Calculate: 20 + 6 = 26.
 Answer: 26 books per shelf.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 19
+
 
 **Problem:**
 Toan has 48 books. He wants to split them equally among 3 friends. How many does each friend get, and how many are left over?
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 20
+
 
 **Solution:****
 48 ÷ 3 = 16 with a remainder of 0
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 21
+
 
 **Problem:**
 What is 330 ÷ 10?
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 22
+
 
 **Solution:****
 330 / 10 = 33
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 23
+
 
 **Problem:**
 A rectangle has a width of 13cm and a height of 7cm. What is its area?
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 24
+
 
 **Solution:****
 Area = width * height
 13 * 7 = 91 sq cm
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 25
+
 
 **Problem:**
 A bakery sells 24 boxes of cupcakes every day. Each box contains 12 cupcakes. How many cupcakes does the bakery sell in one day?
@@ -652,7 +678,8 @@ Step 2: Multiply 24 by 12.
 - 240 + 48 = 288.
 Answer: The bakery sells 288 cupcakes a day.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 26
+
 
 **Problem:**
 There are 147 stickers to be shared equally among 4 friends. How many stickers does each friend get, and how many are left over?
@@ -666,7 +693,8 @@ Step 2: Total stickers per friend: 25 + 10 + 1 = 36.
 Step 3: The remainder is 3.
 Answer: Each friend gets 36 stickers, and there are 3 left over.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 27
+
 
 **Problem:**
 Emelia has a chocolate bar. She eats 2/8 of it in the morning and 3/8 of it in the afternoon. What fraction of the chocolate bar has she eaten in total, and how much is left?
@@ -678,7 +706,8 @@ Step 2: Subtract the amount eaten from the whole (8/8).
 - 8/8 - 5/8 = 3/8
 Answer: She has eaten 5/8 of the bar, and 3/8 is left.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 28
+
 
 **Problem:**
 A rectangular garden is 8 meters long and 5 meters wide. What is the perimeter of the garden, and what is its area?
@@ -692,7 +721,8 @@ Step 2: Calculate Area (length times width).
 - Area = 8 * 5 = 40 square meters.
 Answer: Perimeter is 26m, Area is 40 sq m.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 29
+
 
 **Problem:**
 Leo buys a toy car for £4.50 and a pack of stickers for £2.75. If he pays with a £10 note, how much change should he receive?
@@ -704,7 +734,8 @@ Step 2: Subtract the total from £10.
 - 10.00 - 7.25 = 2.75
 Answer: Leo should receive £2.75 in change.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 30
+
 
 **Problem:**
 Sarah has 5 packs of pencils, and each pack has 8 pencils. She gives 12 pencils to her classmates. How many pencils does she have left?
@@ -716,7 +747,8 @@ Step 2: Subtract the pencils given away.
 - 40 - 12 = 28
 Answer: Sarah has 28 pencils left.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 31
+
 
 **Problem:**
 There are 40 students in a class. 3/4 of the students prefer football over basketball. How many students prefer football?
@@ -728,7 +760,8 @@ Step 2: Multiply by 3 to find 3/4.
 - 10 * 3 = 30
 Answer: 30 students prefer football.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 32
+
 
 **Problem:**
 A baker makes 24 trays of cupcakes, and each tray has 6 cupcakes. How many cupcakes did the baker make in total?
@@ -739,7 +772,8 @@ Step 2: Multiply 24 by 6.
 Calculation: 20 * 6 = 120; 4 * 6 = 24; 120 + 24 = 144.
 Answer: The baker made 144 cupcakes.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 33
+
 
 **Problem:**
 Sarah has 144 stickers and wants to share them equally among 6 of her friends. How many stickers will each friend receive?
@@ -750,7 +784,8 @@ Step 2: Divide 144 by 6.
 Calculation: 120 / 6 = 20; 24 / 6 = 4; 20 + 4 = 24.
 Answer: Each friend will receive 24 stickers.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 34
+
 
 **Problem:**
 Tom eats 2/8 of a pizza, and Jerry eats 3/8 of the same pizza. What fraction of the pizza have they eaten together? What fraction is left?
@@ -762,7 +797,8 @@ Step 2: Subtract from the whole (8/8 - 5/8).
 Calculation: (8-5) / 8 = 3/8.
 Answer: They ate 5/8 of the pizza together, and 3/8 is left.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 35
+
 
 **Problem:**
 A blue ribbon is 4.5 metres long. If you cut off a piece that is 1.2 metres long to make a bow, how much ribbon is remaining?
@@ -773,7 +809,8 @@ Step 2: Subtract 1.2 from 4.5.
 Calculation: 4.5 - 1.0 = 3.5; 3.5 - 0.2 = 3.3.
 Answer: There are 3.3 metres of ribbon remaining.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 36
+
 
 **Problem:**
 A rectangular garden is 8 metres long and 5 metres wide. What is the perimeter of the garden, and what is its total area?
@@ -785,7 +822,8 @@ Step 2: Calculate Area (length times width).
 Calculation: 8 * 5 = 40 square metres.
 Answer: The perimeter is 26m and the area is 40 sq m.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 37
+
 
 **Problem:**
 Leo buys 3 notebooks for £1.20 each and a fancy pen for 80p (£0.80). He pays with a £5 note. How much change should he receive?
@@ -796,7 +834,8 @@ Step 2: Add the cost of the pen (£3.60 + £0.80 = £4.40).
 Step 3: Subtract total from the payment (£5.00 - £4.40 = £0.60).
 Answer: Leo should receive £0.60 (or 60p) in change.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 38
+
 
 **Problem:**
 There are 48 students in the school choir. 1/4 of them are in Year 3, 1/2 of them are in Year 4, and the rest are in Year 5. How many students in the choir are in Year 5?
@@ -810,7 +849,8 @@ Step 3: Subtract both from the total (48 - 12 - 24).
 Calculation: 48 - 36 = 12.
 Answer: There are 12 students in Year 5.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 39
+
 
 **Problem:**
 A bakery sells boxes of 12 cupcakes. If they sell 45 boxes in one day, how many cupcakes did they sell in total?
@@ -821,7 +861,8 @@ A bakery sells boxes of 12 cupcakes. If they sell 45 boxes in one day, how many 
 3. Total: 480 + 60 = 540.
 Answer: 540 cupcakes.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 40
+
 
 **Problem:**
 Farmer Joe has 137 apples. He wants to put them into bags of 6. How many full bags can he make, and how many apples will be left over?
@@ -833,7 +874,8 @@ Farmer Joe has 137 apples. He wants to put them into bags of 6. How many full ba
 4. Total bags: 20 + 2 = 22. Remainder: 5.
 Answer: 22 full bags and 5 apples left over.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 41
+
 
 **Problem:**
 Sarah has a chocolate bar. She eats 1/4 of it in the morning and 3/8 of it in the afternoon. What fraction of the chocolate bar is left?
@@ -845,7 +887,8 @@ Sarah has a chocolate bar. She eats 1/4 of it in the morning and 3/8 of it in th
 4. Subtract from the whole (8/8): 8/8 - 5/8 = 3/8.
 Answer: 3/8 of the chocolate bar is left.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 42
+
 
 **Problem:**
 A rectangular garden has a length of 12 meters and a width of 7 meters. What is the perimeter of the garden, and what is its area?
@@ -855,7 +898,8 @@ A rectangular garden has a length of 12 meters and a width of 7 meters. What is 
 2. Area = length * width = 12 * 7 = 84 square meters.
 Answer: Perimeter is 38m, Area is 84 sq m.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 43
+
 
 **Problem:**
 Leo spent £4.50 on a toy car and £2.75 on some stickers. He paid with a £10 note. How much change should he receive?
@@ -866,7 +910,8 @@ Leo spent £4.50 on a toy car and £2.75 on some stickers. He paid with a £10 n
 3. Calculation: 10.00 - 7.00 = 3.00; 3.00 - 0.25 = 2.75.
 Answer: Leo receives £2.75 change.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 44
+
 
 **Problem:**
 There are 4 buses. Each bus has 24 seats. If 3 buses are completely full and the 4th bus has only 10 people on it, how many people are there in total across all buses?
@@ -876,7 +921,8 @@ There are 4 buses. Each bus has 24 seats. If 3 buses are completely full and the
 2. Add the people in the last bus: 72 + 10 = 82.
 Answer: There are 82 people in total.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 45
+
 
 **Problem:**
 A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does the movie end?
@@ -887,7 +933,8 @@ A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does th
 3. Add 45 minutes: 3:15 + 45 min = 4:00 PM (since 15+45=60).
 Answer: The movie ends at 4:00 PM.
 ---
-### 🎓 Daily Challenge
+### 🎓 Day 46
+
 
 **END OF ARCHIVE**
 *Compiled by Finley & Mr. Numbers | Galactic Edition 2026*
