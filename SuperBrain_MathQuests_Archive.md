@@ -1038,13 +1038,116 @@ Answer: The movie ends at 4:00 PM.
 
 ### 🎓 Day 39
 
-**Problem:**
-What is 2/5 + 9/5?
+**Problem:** A library has 8 bookshelves, and each shelf can hold 43 books. How many books can the library hold in total on these shelves?
 
 
 
 
 **Solution:**
-2/5 + 9/5 = 11/5 (which simplifies to ...)
+Calculation: 8 x 43
+8 x 40 = 320
+8 x 3 = 24
+320 + 24 = 344
+
+**Answer:** The library can hold 344 books.
+
+---
+
+### 🎓 Day 40
+
+**Problem:** Emelia spent 156 minutes reading her favorite book over 3 days. If she spent the same amount of time reading each day, how many minutes did she read per day?
+
+
+
+
+**Solution:**
+Calculation: 156 / 3
+150 / 3 = 50
+6 / 3 = 2
+50 + 2 = 52
+
+**Answer:** She read for 52 minutes per day.
+
+---
+
+### 🎓 Day 41
+
+**Problem:** Sarah has a chocolate bar. She gives 2/8 to her brother and 3/8 to her sister. What fraction of the chocolate bar does Sarah have left?
+
+
+
+
+**Solution:**
+Total given away: 2/8 + 3/8 = 5/8
+Remaining part: 1 - 5/8 = 8/8 - 5/8 = 3/8
+
+**Answer:** Sarah has 3/8 of the chocolate bar left.
+
+---
+
+### 🎓 Day 42
+
+**Problem:** Which is larger: 0.65 or 0.7? Explain why.
+
+
+
+
+**Solution:**
+To compare, we can give them the same number of decimal places:
+0.7 = 0.70
+Comparing 0.65 and 0.70, we see that 70 hundredths is more than 65 hundredths.
+
+**Answer:** 0.7 is larger.
+
+---
+
+### 🎓 Day 43
+
+**Problem:** A rectangular garden has a length of 12 meters and a width of 7 meters. What is the total area of the garden, and what is its perimeter?
+
+
+
+
+**Solution:**
+Area = length x width = 12 x 7 = 84 square meters.
+Perimeter = 2 x (length + width) = 2 x (12 + 7) = 2 x 19 = 38 meters.
+
+**Answer:** Area is 84 sq m and Perimeter is 38 m.
+
+---
+
+### 🎓 Day 44
+
+**Problem:** A baker makes 144 cupcakes. He puts them into boxes of 6. If he sells each box for £5, how much money will he make if he sells all the boxes?
+
+
+
+
+**Solution:**
+Step 1: Number of boxes = 144 / 6
+120 / 6 = 20
+24 / 6 = 4
+Total boxes = 24
+Step 2: Total money = 24 x £5 = £120
+
+**Answer:** He will make £120.
+
+---
+
+### 🎓 Day 45
+
+**Problem:** Jake has £50. He buys a game for £24.99 and a controller for £12.50. How much change should he receive?
+
+
+
+
+**Solution:**
+Step 1: Total spent = £24.99 + £12.50
+24 + 12 = 36
+0.99 + 0.50 = 1.49
+Total = £37.49
+Step 2: Change = £50 - £37.49 = £12.51
+
+**Answer:** He should receive £12.51 change.
 
 ---
