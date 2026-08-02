@@ -1151,3 +1151,8 @@ Step 2: Change = £50 - £37.49 = £12.51
 **Answer:** He should receive £12.51 change.
 
 ---
+
+### 🎓 Day 46
+
+# Dummy Challenge
+---
