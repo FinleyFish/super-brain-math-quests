@@ -1787,3 +1787,533 @@ A square playground has a perimeter of 36m. Inside the playground, there is a re
 Step 1: Find the side length of the square playground: 36m ÷ 4 = 9m. Step 2: Calculate the total area of the playground: 9m × 9m = 81 sq m. Step 3: Calculate the area of the sandbox: 4m × 2m = 8 sq m. Step 4: Subtract the sandbox area from the total area: 81 - 8 = 73 sq m. Answer: 73 square meters
 
 ---
+
+### 🎓 Day 95
+
+**Problem**:
+A school library bought 14 boxes of books. Each box contains 25 books. How many books did the library buy in total?
+
+**Solution**:
+1. Identify the numbers: 14 boxes and 25 books per box.
+2. Multiply 14 by 25.
+3. Calculation: (10 * 25) + (4 * 25) = 250 + 100 = 350.
+Answer: The library bought 350 books.
+
+---
+
+### 🎓 Day 96
+
+**Problem**:
+Sarah has a chocolate bar with 12 equal squares. She gives 1/4 of the bar to her friend and 1/3 of the bar to her brother. How many squares does she have left?
+
+**Solution**:
+1. Total squares = 12.
+2. Friend's share: 1/4 of 12 = 12 / 4 = 3 squares.
+3. Brother's share: 1/3 of 12 = 12 / 3 = 4 squares.
+4. Total given away: 3 + 4 = 7 squares.
+5. Squares remaining: 12 - 7 = 5 squares.
+Answer: Sarah has 5 squares left.
+
+---
+
+### 🎓 Day 97
+
+**Problem**:
+A rectangular garden is 8 meters long and 5 meters wide. What is the area of the garden, and what is its perimeter?
+
+**Solution**:
+1. Length = 8m, Width = 5m.
+2. Area = length * width = 8 * 5 = 40 square meters.
+3. Perimeter = 2 * (length + width) = 2 * (8 + 5) = 2 * 13 = 26 meters.
+Answer: Area is 40m², Perimeter is 26m.
+
+---
+
+### 🎓 Day 98
+
+**Problem**:
+Mr. Thompson has 156 stickers that he wants to share equally between 6 students. After each student gets their share, one student decides to give half of their stickers to a friend. How many stickers does that friend receive?
+
+**Solution**:
+1. Total stickers = 156, Students = 6.
+2. Stickers per student: 156 / 6 = 26 stickers.
+3. One student gives half away: 26 / 2 = 13 stickers.
+Answer: The friend receives 13 stickers.
+
+---
+
+### 🎓 Day 99
+
+**Problem**:
+Leo bought a toy for £4.75 and a book for £3.50. He paid with a £10 note. How much change should he receive?
+
+**Solution**:
+1. Total cost: 4.75 + 3.50 = £8.25.
+2. Amount paid: £10.00.
+3. Change: 10.00 - 8.25 = £1.75.
+Answer: Leo should receive £1.75 in change.
+
+---
+
+### 🎓 Day 100
+
+**Problem**:
+A bakery makes 432 cupcakes and packs them into boxes of 12. How many full boxes can they make?
+
+**Solution**:
+1. Total cupcakes = 432, Cupcakes per box = 12.
+2. Division: 432 / 12.
+3. Calculation: (12 * 30 = 360), (432 - 360 = 72), (12 * 6 = 72). So, 30 + 6 = 36.
+Answer: They can make 36 full boxes.
+
+---
+
+### 🎓 Day 101
+
+**Problem**:
+A piece of cardboard is 20cm by 10cm. If you cut it exactly in half along the length, what is the area of each new piece?
+
+**Solution**:
+1. Original Area = 20 * 10 = 200 sq cm.
+2. Cutting in half: 200 / 2 = 100 sq cm.
+(Alternatively: New dimensions are 10cm by 10cm, so 10 * 10 = 100 sq cm).
+Answer: The area of each new piece is 100 sq cm.
+
+---
+
+### 🎓 Day 102
+
+**Problem**:
+A farmer has 14 rows of apple trees, and each row has 8 trees. How many apple trees does the farmer have in total?
+
+---
+
+**Solution**:
+1. Identify the number of rows: 14
+2. Identify the trees per row: 8
+3. Multiply them: 14 x 8 = (10 x 8) + (4 x 8)
+4. Calculate: 80 + 32 = 112.
+Answer: 112 apple trees.
+
+---
+
+### 🎓 Day 103
+
+**Problem**:
+Sarah has a rectangular garden that is 7 meters long and 5 meters wide. What is the area of her garden, and what is its perimeter?
+
+---
+
+**Solution**:
+1. Calculate Area: length x width = 7m x 5m = 35 square meters.
+2. Calculate Perimeter: 2 x (length + width) = 2 x (7m + 5m) = 2 x 12m = 24 meters.
+Answer: Area is 35 sq m, Perimeter is 24 m.
+
+---
+
+### 🎓 Day 104
+
+**Problem**:
+Emelia ate 1/4 of a pizza for lunch and then another 2/8 of the same pizza for a snack. How much of the pizza did she eat in total? (Simplify your answer if possible)
+
+---
+
+**Solution**:
+1. Find a common denominator: 2/8 is the same as 1/4.
+2. Add the fractions: 1/4 + 1/4 = 2/4.
+3. Simplify 2/4 to 1/2.
+Answer: Emelia ate 1/2 of the pizza.
+
+---
+
+### 🎓 Day 105
+
+**Problem**:
+A school library has 156 books that need to be placed equally on 6 shelves. How many books will go on each shelf?
+
+---
+
+**Solution**:
+1. Total books: 156
+2. Number of shelves: 6
+3. Divide: 156 / 6 = (120 / 6) + (36 / 6)
+4. Calculate: 20 + 6 = 26.
+Answer: 26 books per shelf.
+
+---
+
+### 🎓 Day 106
+
+**Problem**:
+A bakery sells boxes of cookies. Each box contains 24 cookies. If the bakery sells 15 boxes on Monday, how many cookies did they sell in total?
+
+**Solution**:
+24 x 15
+Step 1: 24 x 10 = 240
+Step 2: 24 x 5 = 120
+Step 3: 240 + 120 = 360
+**Total cookies sold: 360**
+
+---
+
+### 🎓 Day 107
+
+**Problem**:
+Sarah has a rectangular garden. The length is 8 meters and the width is 5 meters. What is the total area of her garden, and what is its perimeter?
+
+**Solution**:
+Area = Length x Width
+8m x 5m = 40 square meters.
+
+Perimeter = 2 x (Length + Width)
+2 x (8m + 5m) = 2 x 13m = 26 meters.
+**Area: 40 sq m, Perimeter: 26m**
+
+---
+
+### 🎓 Day 108
+
+**Problem**:
+James has £40. He spends 1/4 of his money on a new book and 0.2 of his money on a snack. How much money does he have left?
+
+**Solution**:
+Book: 1/4 of £40 = £10
+Snack: 0.2 x £40 = £8
+Total spent: £10 + £8 = £18
+Remaining: £40 - £18 = £22
+**James has £22 left.**
+
+---
+
+### 🎓 Day 109
+
+**Problem**:
+A school library has 576 books that need to be placed equally on 8 shelves. How many books will go on each shelf?
+
+**Solution**:
+576 ÷ 8
+Step 1: 560 ÷ 8 = 70
+Step 2: 16 ÷ 8 = 2
+Total: 70 + 2 = 72
+**Each shelf will have 72 books.**
+
+---
+
+### 🎓 Day 110
+
+**Problem**:
+Mia is baking a cake. The recipe requires 3/4 of a cup of sugar. She only has a 1/4 cup measure. How many times must she fill the 1/4 cup measure to get the correct amount of sugar? If she then adds another 0.5 cups for frosting, how much sugar did she use in total (as a fraction or decimal)?
+
+**Solution**:
+Sugar for cake: 3/4 ÷ 1/4 = 3 times.
+Total sugar: 3/4 + 0.5
+Convert 0.5 to fraction: 1/2 or 2/4.
+3/4 + 2/4 = 5/4 = 1 and 1/4 (or 1.25).
+**She fills the measure 3 times; total sugar used is 1.25 cups.**
+
+---
+
+### 🎓 Day 111
+
+**Problem**:
+A train leaves the station at 10:15 AM and arrives at its destination at 1:45 PM. How long was the journey in hours and minutes?
+
+**Solution**:
+From 10:15 AM to 12:15 PM is 2 hours.
+From 12:15 PM to 1:15 PM is 1 hour (Total 3 hours).
+From 1:15 PM to 1:45 PM is 30 minutes.
+**The journey took 3 hours and 30 minutes.**
+
+---
+
+### 🎓 Day 112
+
+**Problem**:
+Tom has a collection of 128 marbles. He gives half to his sister, and then gives 15 of the remaining marbles to his best friend. How many marbles does Tom have left?
+
+**Solution**:
+Initial: 128
+After giving half to sister: 128 ÷ 2 = 64
+After giving some to friend: 64 - 15 = 49
+**Tom has 49 marbles left.**
+
+---
+
+### 🎓 Day 113
+
+**Problem**:
+Calculate 482 × 37.
+
+**Solution**:
+Step 1: Multiply 482 by 30: 482 × 30 = 14,460. Step 2: Multiply 482 by 7: 482 × 7 = 3,374. Step 3: Add the results together: 14,460 + 3,374 = 17,834. Answer: 17,834
+
+---
+
+### 🎓 Day 114
+
+**Problem**:
+What is 3/8 + 5/10?
+
+**Solution**:
+1. Find the lowest common denominator for 8 and 10: 40.
+2. Convert 3/8 to 15/40.
+3. Convert 5/10 to 20/40.
+4. Add the numerators: 15 + 20 = 35.
+
+Answer: 35/40
+
+---
+
+### 🎓 Day 115
+
+**Problem**:
+What is 2473 ÷ 29? (Provide the quotient and remainder)
+
+**Solution**:
+1. Determine how many times 29 goes into the first digits of 2473.
+2. Subtract the result from the dividend to find the remainder.
+3. The final quotient is 85 with a remainder of 8.
+
+Answer: 85 remainder 8
+
+---
+
+### 🎓 Day 116
+
+**Problem**:
+What is 618 × 69?
+
+**Solution**:
+1. Multiply 618 by the ones digit of 69.
+2. Multiply 618 by the tens digit of 69 and shift left one position.
+3. Sum the two partial products: 42642.
+
+Answer: 42642
+
+---
+
+### 🎓 Day 117
+
+**Problem**:
+An L-shaped floor is made of two rectangular sections. Section A is 12m by 9m, and Section B is 11m by 12m. What is the total area?
+
+**Solution**:
+1. Calculate Area A: 12 * 9 = 108 sq m.
+2. Calculate Area B: 11 * 12 = 132 sq m.
+3. Add both areas together: 108 + 132 = 240 sq m.
+
+Answer: 240 sq m
+
+---
+
+### 🎓 Day 118
+
+**Problem**:
+Toan had 537 rare coins. He bought 136 more at a fair, but then gave 29 to each of his 3 children. How many rare coins does he have left?
+
+**Solution**:
+1. Calculate total after buying: 537 + 136 = 673.
+2. Calculate total given away: 29 * 3 = 87.
+3. Subtract the amount given away from the total: 673 - 87 = 586.
+
+Answer: 586
+
+---
+
+### 🎓 Day 119
+
+**Problem**:
+An L-shaped floor is made of two rectangular sections. Section A is 13m by 15m, and Section B is 6m by 6m. What is the total area?
+
+**Solution**:
+1. Calculate Area A: 13 * 15 = 195 sq m.
+2. Calculate Area B: 6 * 6 = 36 sq m.
+3. Add both areas together: 195 + 36 = 231 sq m.
+
+Answer: 231 sq m
+
+---
+
+### 🎓 Day 120
+
+**Problem**:
+What is 725 ÷ 14? (Provide the quotient and remainder)
+
+**Solution**:
+1. Determine how many times 14 goes into the first digits of 725.
+2. Subtract the result from the dividend to find the remainder.
+3. The final quotient is 51 with a remainder of 11.
+
+Answer: 51 remainder 11
+
+---
+
+### 🎓 Day 121
+
+**Problem**:
+What is 3/10 + 6/8?
+
+**Solution**:
+1. Find the lowest common denominator for 10 and 8: 40.
+2. Convert 3/10 to 12/40.
+3. Convert 6/8 to 30/40.
+4. Add the numerators: 12 + 30 = 42.
+
+Answer: 42/40
+
+---
+
+### 🎓 Day 122
+
+**Problem**:
+An L-shaped floor is made of two rectangular sections. Section A is 12m by 20m, and Section B is 9m by 11m. What is the total area?
+
+**Solution**:
+1. Calculate Area A: 12 * 20 = 240 sq m.
+2. Calculate Area B: 9 * 11 = 99 sq m.
+3. Add both areas together: 240 + 99 = 339 sq m.
+
+Answer: 339 sq m
+
+---
+
+### 🎓 Day 123
+
+**Problem**:
+What is 1631 ÷ 23? (Provide the quotient and remainder)
+
+**Solution**:
+1. Determine how many times 23 goes into the first digits of 1631.
+2. Subtract the result from the dividend to find the remainder.
+3. The final quotient is 70 with a remainder of 21.
+
+Answer: 70 remainder 21
+
+---
+
+### 🎓 Day 124
+
+**Problem**:
+An L-shaped floor is made of two rectangular sections. Section A is 14m by 18m, and Section B is 11m by 8m. What is the total area?
+
+**Solution**:
+1. Calculate Area A: 14 * 18 = 252 sq m.
+2. Calculate Area B: 11 * 8 = 88 sq m.
+3. Add both areas together: 252 + 88 = 340 sq m.
+
+Answer: 340 sq m
+
+---
+
+### 🎓 Day 125
+
+**Problem**:
+What is 2864 ÷ 29? (Provide the quotient and remainder)
+
+**Solution**:
+1. Determine how many times 29 goes into the first digits of 2864.
+2. Subtract the result from the dividend to find the remainder.
+3. The final quotient is 98 with a remainder of 22.
+
+Answer: 98 remainder 22
+
+---
+
+### 🎓 Day 126
+
+**Problem**:
+What is 993 × 53?
+
+**Solution**:
+1. Multiply 993 by the ones digit of 53.
+2. Multiply 993 by the tens digit of 53 and shift left one position.
+3. Sum the two partial products: 52629.
+
+Answer: 52629
+
+---
+
+### 🎓 Day 127
+
+**Problem**:
+What is 284 × 72?
+
+**Solution**:
+1. Multiply 284 by the ones digit of 72.
+2. Multiply 284 by the tens digit of 72 and shift left one position.
+3. Sum the two partial products: 20448.
+
+Answer: 20448
+
+---
+
+### 🎓 Day 128
+
+**Problem**:
+An L-shaped floor is made of two rectangular sections. Section A is 11m by 11m, and Section B is 11m by 4m. What is the total area?
+
+**Solution**:
+1. Calculate Area A: 11 * 11 = 121 sq m.
+2. Calculate Area B: 11 * 4 = 44 sq m.
+3. Add both areas together: 121 + 44 = 165 sq m.
+
+Answer: 165 sq m
+
+---
+
+### 🎓 Day 129
+
+**Problem**:
+What is 778 × 50?
+
+**Solution**:
+1. Multiply 778 by the ones digit of 50.
+2. Multiply 778 by the tens digit of 50 and shift left one position.
+3. Sum the two partial products: 38900.
+
+Answer: 38900
+
+---
+
+### 🎓 Day 130
+
+**Problem**:
+An L-shaped floor is made of two rectangular sections. Section A is 11m by 8m, and Section B is 10m by 4m. What is the total area?
+
+**Solution**:
+1. Calculate Area A: 11 * 8 = 88 sq m.
+2. Calculate Area B: 10 * 4 = 40 sq m.
+3. Add both areas together: 88 + 40 = 128 sq m.
+
+Answer: 128 sq m
+
+---
+
+### 🎓 Day 131
+
+**Problem**:
+What is 6/12 + 8/10?
+
+**Solution**:
+1. Find the lowest common denominator for 12 and 10: 60.
+2. Convert 6/12 to 30/60.
+3. Convert 8/10 to 48/60.
+4. Add the numerators: 30 + 48 = 78.
+
+Answer: 78/60
+
+---
+
+### 🎓 Day 132
+
+**Problem**:
+What is 729 × 22?
+
+**Solution**:
+1. Multiply 729 by the ones digit of 22.
+2. Multiply 729 by the tens digit of 22 and shift left one position.
+3. Sum the two partial products: 16038.
+
+Answer: 16038
+
+---
